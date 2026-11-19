@@ -1,4 +1,4 @@
-# Сборка и публикация на GitHub Pages (https://niksoul1881.github.io/robotics-ai/).
+﻿# Сборка и публикация на GitHub Pages (https://niksoul1881.github.io/robotics-ai-/).
 # Сайт живёт в подпапке /robotics-ai/, поэтому после сборки ссылки от корня ("/...") переписываются
 # под неё. Когда будет свой домен — убрать шаг «Ссылки под подпапку» и поменять baseURL.
 name: Pages
@@ -27,11 +27,11 @@ jobs:
           hugo-version: "0.151.0"
           extended: true
       - name: Сборка
-        run: hugo --baseURL "https://niksoul1881.github.io/robotics-ai/"
+        run: hugo --baseURL "https://niksoul1881.github.io/robotics-ai-/"
       - name: Ссылки под подпапку
         # «/путь» → «/robotics-ai/путь», кроме «//cdn…» и ссылок, где подпапка уже есть
         run: |
-          find public -name '*.html' -print0 | xargs -0 perl -pi -e 's#(href|src|action)="/(?!/|robotics-ai/)#$1="/robotics-ai/#g'
+          find public -name '*.html' -print0 | xargs -0 perl -pi -e 's#(href|src|action)="/(?!/|robotics-ai/)#$1="/robotics-ai-/#g'
       - uses: actions/upload-pages-artifact@v3
         with:
           path: public
