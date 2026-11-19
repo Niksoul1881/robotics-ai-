@@ -1,12 +1,15 @@
-{{ define "main" }}
+﻿{{ define "main" }}
 {{- $total := 0 }}{{ $ready := 0 }}
 {{- range site.Data.program.courses }}{{ $total = add $total .count }}{{ end }}
 {{- range where site.RegularPages "Params.placeholders" "ne" true }}{{ if .Params.lesson_number }}{{ $ready = add $ready 1 }}{{ end }}{{ end }}
 <div class="program-wrapper">
     <div class="program-header">
         <span class="program-eyebrow">Полная программа</span>
-        <h1>{{ $total }} уроков от клетки до <span class="accent-ml">нейросетей</span></h1>
-        <p>{{ len site.Data.program.courses }} курсов — школьная биология, ОГЭ и ЕГЭ, биоинформатика и ML. Готово уроков: {{ $ready }}, остальные появляются каждую неделю. Всё бесплатно.</p>
+        <h1>{{ $total }} уроков от <span class="accent-ml">станка</span> до модели</h1>
+        <p>{{ len site.Data.program.courses }} модулей — производство, электрика, сигналы, классический ML, зрение и внедрение. Готово уроков: {{ $ready }}, остальные появляются по мере написания. Всё бесплатно.</p>
+        <div class="route-hint">
+            <strong>Порядок изучения — не по номерам.</strong> Начни с «Производства для айтишника», параллельно читай «Электрику с нуля», потом «Сигналы и измерения», и только затем ML. Полный маршрут с проверками — в файле <code>ROUTE.md</code> в репозитории.
+        </div>
         <div class="search-container">
             <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
             <input type="text" class="search-box" id="searchBox" placeholder="Поиск урока по названию...">
@@ -23,7 +26,7 @@
                 <p>{{ $c.subtitle }}</p>
             </div>
             <div class="course-stats">
-                <strong>Уроки {{ $first }}–{{ $last }}</strong>
+                <strong>Модуль {{ $c.num }}</strong>
                 <span>{{ len $c.sections }} {{ if eq (len $c.sections) 1 }}блок{{ else if lt (len $c.sections) 5 }}блока{{ else }}блоков{{ end }} • {{ $c.count }} уроков</span>
             </div>
             <svg class="course-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
@@ -36,7 +39,7 @@
                     <div class="block-title-section">
                         <div class="block-label">Блок {{ add $i 1 }}</div>
                         <div class="block-title">{{ $s.title | default $c.title }}</div>
-                        <div class="block-range">Уроки {{ $sf }}–{{ $sl }} • {{ len $s.lessons }} уроков</div>
+                        <div class="block-range">{{ len $s.lessons }} уроков</div>
                     </div>
                     <svg class="block-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
                 </div>
@@ -98,6 +101,27 @@
         color: #666;
         font-weight: 500;
         margin-bottom: 32px;
+    }
+
+    .route-hint {
+        max-width: 720px;
+        margin: 0 auto 28px;
+        padding: 16px 20px;
+        border-left: 4px solid #16A34A;
+        background: #F0FDF4;
+        border-radius: 8px;
+        font-size: 0.95rem;
+        line-height: 1.55;
+        color: #374151;
+        text-align: left;
+    }
+
+    .route-hint code {
+        background: #fff;
+        border: 1px solid #D1D5DB;
+        border-radius: 4px;
+        padding: 1px 5px;
+        font-size: 0.9em;
     }
 
     .search-container {

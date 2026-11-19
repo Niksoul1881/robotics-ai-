@@ -6,7 +6,7 @@ lesson_number: 16
 placeholders: true
 weight: 16
 course: "Производство для айтишника"
-course_num: 1
+course_num: 2
 lesson_in_course: 16
 course_total: 16
 ---

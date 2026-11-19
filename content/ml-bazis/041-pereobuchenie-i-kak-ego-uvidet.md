@@ -6,7 +6,7 @@ lesson_number: 41
 placeholders: true
 weight: 41
 course: "Классический ML на промышленных данных"
-course_num: 3
+course_num: 7
 lesson_in_course: 7
 course_total: 20
 ---

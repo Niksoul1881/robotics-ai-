@@ -6,7 +6,7 @@ seo_description: "Путь заготовки от прутка до детал�
 date: 2026-11-19
 lastmod: 2026-11-19
 course: "Производство для айтишника"
-course_num: 1
+course_num: 2
 lesson_in_course: 3
 course_total: 16
 lesson_number: 3

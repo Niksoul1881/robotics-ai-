@@ -6,7 +6,7 @@ seo_description: "Цех, участок, линия и ячейка: чем о�
 date: 2026-11-19
 lastmod: 2026-11-19
 course: "Производство для айтишника"
-course_num: 1
+course_num: 2
 lesson_in_course: 2
 course_total: 16
 lesson_number: 2

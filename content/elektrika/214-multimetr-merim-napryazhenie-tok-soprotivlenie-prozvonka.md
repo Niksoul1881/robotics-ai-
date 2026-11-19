@@ -6,7 +6,7 @@ lesson_number: 214
 placeholders: true
 weight: 214
 course: "Электрика с нуля"
-course_num: 12
+course_num: 1
 lesson_in_course: 10
 course_total: 12
 ---

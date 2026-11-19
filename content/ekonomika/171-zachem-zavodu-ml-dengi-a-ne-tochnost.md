@@ -6,7 +6,7 @@ lesson_number: 171
 placeholders: true
 weight: 171
 course: "Экономика и внедрение"
-course_num: 10
+course_num: 13
 lesson_in_course: 1
 course_total: 14
 ---

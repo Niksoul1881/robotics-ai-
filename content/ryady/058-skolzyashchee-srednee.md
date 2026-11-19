@@ -6,7 +6,7 @@ lesson_number: 58
 placeholders: true
 weight: 58
 course: "Временные ряды и прогнозирование"
-course_num: 4
+course_num: 8
 lesson_in_course: 4
 course_total: 22
 ---

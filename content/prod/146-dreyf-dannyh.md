@@ -6,7 +6,7 @@ lesson_number: 146
 placeholders: true
 weight: 146
 course: "ML в продакшене и edge"
-course_num: 8
+course_num: 12
 lesson_in_course: 10
 course_total: 18
 ---

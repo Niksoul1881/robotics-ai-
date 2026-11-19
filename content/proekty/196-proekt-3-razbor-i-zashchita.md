@@ -6,7 +6,7 @@ lesson_number: 196
 placeholders: true
 weight: 196
 course: "Проекты"
-course_num: 11
+course_num: 14
 lesson_in_course: 12
 course_total: 20
 ---

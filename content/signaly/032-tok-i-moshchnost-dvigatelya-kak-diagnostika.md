@@ -6,7 +6,7 @@ lesson_number: 32
 placeholders: true
 weight: 32
 course: "Сигналы и измерения"
-course_num: 2
+course_num: 5
 lesson_in_course: 16
 course_total: 18
 ---

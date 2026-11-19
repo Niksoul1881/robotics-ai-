@@ -6,7 +6,7 @@ lesson_number: 92
 placeholders: true
 weight: 92
 course: "Детекция аномалий и предиктивное обслуживание"
-course_num: 5
+course_num: 9
 lesson_in_course: 16
 course_total: 18
 ---

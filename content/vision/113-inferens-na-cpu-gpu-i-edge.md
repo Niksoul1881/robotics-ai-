@@ -6,7 +6,7 @@ lesson_number: 113
 placeholders: true
 weight: 113
 course: "Компьютерное зрение"
-course_num: 6
+course_num: 10
 lesson_in_course: 19
 course_total: 24
 ---

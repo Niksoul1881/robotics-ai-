@@ -6,7 +6,7 @@ seo_description: "Что такое электричество простыми 
 date: 2026-11-19
 lastmod: 2026-11-19
 course: "Электрика с нуля"
-course_num: 12
+course_num: 1
 lesson_in_course: 1
 course_total: 12
 lesson_number: 205

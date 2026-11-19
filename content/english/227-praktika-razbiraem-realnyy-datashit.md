@@ -6,7 +6,7 @@ lesson_number: 227
 placeholders: true
 weight: 227
 course: "Технический английский для инженера"
-course_num: 13
+course_num: 3
 lesson_in_course: 11
 course_total: 12
 ---

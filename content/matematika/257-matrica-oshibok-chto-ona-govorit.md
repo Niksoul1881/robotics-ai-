@@ -6,7 +6,7 @@ lesson_number: 257
 placeholders: true
 weight: 257
 course: "Математика под задачу"
-course_num: 14
+course_num: 4
 lesson_in_course: 29
 course_total: 29
 ---

@@ -6,7 +6,7 @@ lesson_number: 166
 placeholders: true
 weight: 166
 course: "Данные с оборудования"
-course_num: 9
+course_num: 6
 lesson_in_course: 12
 course_total: 16
 ---

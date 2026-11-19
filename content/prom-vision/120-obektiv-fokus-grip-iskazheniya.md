@@ -6,7 +6,7 @@ lesson_number: 120
 placeholders: true
 weight: 120
 course: "Промышленное зрение: физика и стенд"
-course_num: 7
+course_num: 11
 lesson_in_course: 2
 course_total: 18
 ---
