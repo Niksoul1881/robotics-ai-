@@ -29,5 +29,5 @@
 
   <text x="500" y="296" text-anchor="middle" font-size="13.5" fill="#374151">Напряжение — это <tspan font-weight="bold">давление</tspan>. Ток — <tspan font-weight="bold">сколько протекает</tspan>. Сопротивление — <tspan font-weight="bold">насколько узко</tspan>.</text>
   <text x="500" y="322" text-anchor="middle" font-size="13.5" fill="#374151">Подняли давление — поток вырос. Сузили трубу — поток упал, а давление перед сужением выросло.</text>
-  <text x="500" y="352" text-anchor="middle" font-size="12.5" fill="#16A34A">Именно поэтому «ток = напряжение / сопротивление» называют законом Ома.</text>
+  <text x="500" y="352" text-anchor="middle" font-size="12.5" fill="#EA580C">Именно поэтому «ток = напряжение / сопротивление» называют законом Ома.</text>
 </svg>

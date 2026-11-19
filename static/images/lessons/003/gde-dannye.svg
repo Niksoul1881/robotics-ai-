@@ -11,8 +11,8 @@
 
   <!-- точки данных -->
   <g>
-    <circle cx="130" cy="110" r="9" fill="#16A34A"/>
-    <circle cx="280" cy="110" r="9" fill="#16A34A"/>
+    <circle cx="130" cy="110" r="9" fill="#EA580C"/>
+    <circle cx="280" cy="110" r="9" fill="#EA580C"/>
     <circle cx="430" cy="110" r="9" fill="#dc2626"/>
     <circle cx="580" cy="110" r="9" fill="#dc2626"/>
     <circle cx="730" cy="110" r="9" fill="#7c3aed"/>
@@ -21,13 +21,13 @@
 
   <!-- подписи данных -->
   <g font-size="11.5">
-    <rect x="52" y="156" width="156" height="70" rx="8" fill="#f0fdf4" stroke="#86efac"/>
-    <text x="64" y="176" fill="#166534" font-weight="bold">партия, номер</text>
+    <rect x="52" y="156" width="156" height="70" rx="8" fill="#fff7ed" stroke="#fdba74"/>
+    <text x="64" y="176" fill="#7c2d12" font-weight="bold">партия, номер</text>
     <text x="64" y="196" fill="#4b5563">из накладной</text>
     <text x="64" y="214" fill="#9ca3af">MES</text>
 
-    <rect x="216" y="156" width="136" height="70" rx="8" fill="#f0fdf4" stroke="#86efac"/>
-    <text x="228" y="176" fill="#166534" font-weight="bold">время резки</text>
+    <rect x="216" y="156" width="136" height="70" rx="8" fill="#fff7ed" stroke="#fdba74"/>
+    <text x="228" y="176" fill="#7c2d12" font-weight="bold">время резки</text>
     <text x="228" y="196" fill="#4b5563">из станка</text>
     <text x="228" y="214" fill="#9ca3af">стойка ЧПУ</text>
 
@@ -55,6 +55,6 @@
   <line x1="40" y1="248" x2="960" y2="248" stroke="#e5e7eb" stroke-width="2"/>
   <text x="500" y="274" text-anchor="middle" font-size="13" fill="#374151">Зелёные точки — данные есть всегда. <tspan fill="#dc2626">Красные</tspan> — только если поставили датчики.</text>
   <text x="500" y="300" text-anchor="middle" font-size="13" fill="#7c3aed">Фиолетовая — разметка «брак», и без неё не обучить классификатор.</text>
-  <text x="500" y="330" text-anchor="middle" font-size="13" fill="#166534" font-weight="bold">Правило: сначала найти, где лежит нужное, а потом думать о модели.</text>
+  <text x="500" y="330" text-anchor="middle" font-size="13" fill="#7c2d12" font-weight="bold">Правило: сначала найти, где лежит нужное, а потом думать о модели.</text>
   <text x="500" y="356" text-anchor="middle" font-size="12" fill="#9ca3af">Часто оказывается, что нужных данных просто нет — и это меняет всю постановку задачи.</text>
 </svg>

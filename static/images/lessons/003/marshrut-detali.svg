@@ -47,10 +47,10 @@
     <text x="730" y="164" fill="#6b7280">60 с</text>
 
     <!-- склад готовой -->
-    <rect x="806" y="70" width="112" height="120" rx="10" fill="#f0fdf4" stroke="#86efac" stroke-width="2"/>
-    <text x="862" y="94" font-size="12.5" font-weight="bold" fill="#166534">Готовая</text>
-    <text x="862" y="114" fill="#16A34A">упаковка</text>
-    <text x="862" y="132" fill="#16A34A">отгрузка</text>
+    <rect x="806" y="70" width="112" height="120" rx="10" fill="#fff7ed" stroke="#fdba74" stroke-width="2"/>
+    <text x="862" y="94" font-size="12.5" font-weight="bold" fill="#7c2d12">Готовая</text>
+    <text x="862" y="114" fill="#EA580C">упаковка</text>
+    <text x="862" y="132" fill="#EA580C">отгрузка</text>
     <text x="862" y="164" fill="#6b7280">30 мин</text>
 
     <!-- брак -->
@@ -60,7 +60,7 @@
   </g>
 
   <!-- стрелки -->
-  <g stroke="#16A34A" stroke-width="2.5">
+  <g stroke="#EA580C" stroke-width="2.5">
     <line x1="126" y1="130" x2="142" y2="130"/><line x1="258" y1="130" x2="274" y2="130"/>
     <line x1="390" y1="130" x2="406" y2="130"/><line x1="522" y1="130" x2="538" y2="130"/>
     <line x1="654" y1="130" x2="670" y2="130"/><line x1="786" y1="130" x2="802" y2="130"/>
@@ -72,7 +72,7 @@
   <line x1="14" y1="236" x2="986" y2="236" stroke="#e5e7eb" stroke-width="2"/>
   <text x="500" y="262" text-anchor="middle" font-size="13" fill="#374151">Такт определяет точение: 180 секунд. Остальные операции успевают между деталями.</text>
   <text x="500" y="288" text-anchor="middle" font-size="13" fill="#374151">Но у каждой операции есть ещё <tspan font-weight="bold">очередь</tspan> — детали ждут своей очереди. Это не работа, а ожидание.</text>
-  <text x="500" y="316" text-anchor="middle" font-size="13" fill="#16A34A">Суммарное время одной детали от склада до отгрузки ≈ 4 часа, хотя обработка — 8 минут.</text>
+  <text x="500" y="316" text-anchor="middle" font-size="13" fill="#EA580C">Суммарное время одной детали от склада до отгрузки ≈ 4 часа, хотя обработка — 8 минут.</text>
   <text x="500" y="342" text-anchor="middle" font-size="12.5" fill="#6b7280">Разница между «8 минутами» и «4 часами» — это очереди и пролёживание. Именно там прячутся деньги.</text>
   <text x="500" y="372" text-anchor="middle" font-size="12" fill="#9ca3af">Брак может возникнуть на любой операции, но обнаруживается обычно только на контроле — или вообще у клиента.</text>
 </svg>

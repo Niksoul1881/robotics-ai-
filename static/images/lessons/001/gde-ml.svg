@@ -36,9 +36,9 @@
     <text x="622" y="284" text-anchor="middle" fill="#164e63" font-weight="bold">Что ломается</text>
     <text x="622" y="306" text-anchor="middle" fill="#6b7280">смена режима, дрейф</text>
 
-    <rect x="750" y="56" width="232" height="272" rx="14" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="2"/>
-    <text x="866" y="86" text-anchor="middle" font-size="16" font-weight="bold" fill="#166534">Безопасность</text>
-    <circle cx="866" cy="132" r="26" fill="#dcfce7" stroke="#86efac" stroke-width="2"/>
+    <rect x="750" y="56" width="232" height="272" rx="14" fill="#fff7ed" stroke="#fed7aa" stroke-width="2"/>
+    <text x="866" y="86" text-anchor="middle" font-size="16" font-weight="bold" fill="#7c2d12">Безопасность</text>
+    <circle cx="866" cy="132" r="26" fill="#ffedd5" stroke="#fdba74" stroke-width="2"/>
     <text x="866" y="140" text-anchor="middle" font-size="20">🦺</text>
     <text x="866" y="184" text-anchor="middle" fill="#14532d" font-weight="bold">Что решаем</text>
     <text x="866" y="206" text-anchor="middle" fill="#6b7280">человек в опасной зоне</text>

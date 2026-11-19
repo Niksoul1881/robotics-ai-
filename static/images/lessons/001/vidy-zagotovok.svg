@@ -18,28 +18,28 @@
   <text x="135" y="168" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e293b">Пруток</text>
   <text x="135" y="194" text-anchor="middle" font-size="12.5" fill="#475569">круглый стержень</text>
   <text x="135" y="214" text-anchor="middle" font-size="12.5" fill="#475569">точат на токарном</text>
-  <text x="135" y="240" text-anchor="middle" font-size="12" fill="#16A34A">втулки, валы, оси</text>
+  <text x="135" y="240" text-anchor="middle" font-size="12" fill="#EA580C">втулки, валы, оси</text>
 
   <!-- лист -->
   <path d="M300,145 L390,145 L450,105 L360,105 z" fill="#cbd5e1" stroke="#94a3b8" stroke-width="2"/>
   <text x="377" y="168" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e293b">Лист</text>
   <text x="377" y="194" text-anchor="middle" font-size="12.5" fill="#475569">плоский прокат</text>
   <text x="377" y="214" text-anchor="middle" font-size="12.5" fill="#475569">режут и гнут</text>
-  <text x="377" y="240" text-anchor="middle" font-size="12" fill="#16A34A">корпуса, кронштейны</text>
+  <text x="377" y="240" text-anchor="middle" font-size="12" fill="#EA580C">корпуса, кронштейны</text>
 
   <!-- отливка -->
   <path d="M565,118 Q580,92 615,96 Q655,100 660,124 Q663,142 635,145 L590,145 Q560,142 565,118 z" fill="#cbd5e1" stroke="#94a3b8" stroke-width="2"/>
   <text x="619" y="168" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e293b">Отливка</text>
   <text x="619" y="194" text-anchor="middle" font-size="12.5" fill="#475569">металл залили в форму</text>
   <text x="619" y="214" text-anchor="middle" font-size="12.5" fill="#475569">сложная форма сразу</text>
-  <text x="619" y="240" text-anchor="middle" font-size="12" fill="#16A34A">корпуса, блоки</text>
+  <text x="619" y="240" text-anchor="middle" font-size="12" fill="#EA580C">корпуса, блоки</text>
 
   <!-- поковка -->
   <path d="M800,112 L860,104 L875,130 L850,152 L800,148 z" fill="#cbd5e1" stroke="#94a3b8" stroke-width="2"/>
   <text x="863" y="168" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e293b">Поковка</text>
   <text x="863" y="194" text-anchor="middle" font-size="12.5" fill="#475569">металл сжали прессом</text>
   <text x="863" y="214" text-anchor="middle" font-size="12.5" fill="#475569">прочнее литья</text>
-  <text x="863" y="240" text-anchor="middle" font-size="12" fill="#16A34A">валы, шатуны, оси</text>
+  <text x="863" y="240" text-anchor="middle" font-size="12" fill="#EA580C">валы, шатуны, оси</text>
 
   <line x1="20" y1="304" x2="980" y2="304" stroke="#e5e7eb" stroke-width="2"/>
   <text x="500" y="330" text-anchor="middle" font-size="13.5" fill="#374151">У любой заготовки есть <tspan font-weight="bold">припуск</tspan> — лишний слой материала, который снимут при обработке.</text>

@@ -48,7 +48,13 @@
     }
 
     .hero-progression .num.accent {
-        color: #16A34A;
+        color: #EA580C;
+    }
+
+    /* слова длиннее цифр — на них нужен меньший кегль */
+    .hero-progression .num.word {
+        font-size: clamp(40px, 5.2vw, 92px);
+        letter-spacing: -0.04em;
     }
 
     .hero-progression .arrow {
@@ -74,7 +80,7 @@
     }
 
     .hero-labels span.accent {
-        color: #16A34A;
+        color: #EA580C;
     }
 
     .hero-bottom-row {
@@ -229,12 +235,12 @@
 
     .feature-icon.tint-blue {
         background: #E8EEF7;
-        color: #0F766E;
+        color: #9a3412;
     }
 
     .feature-icon.tint-orange {
         background: #FDEAE6;
-        color: #16A34A;
+        color: #EA580C;
     }
     
     .feature-card h3 {
@@ -682,19 +688,19 @@
 
 <!-- Hero Section -->
 <section class="hero">
-    <span class="hero-math-symbol" style="top:30px; right:130px; font-size:52px; transform:rotate(-8deg);">ATG</span>
+    <span class="hero-math-symbol" style="top:30px; right:130px; font-size:44px; transform:rotate(-8deg);">M03 S1200</span>
     <span class="hero-math-symbol" style="top:160px; right:280px; font-size:34px; transform:rotate(6deg);">Ø12 H7</span>
     <span class="hero-math-symbol" style="top:50px; right:360px; font-size:40px; transform:rotate(4deg);">0,1%</span>
     <span class="hero-math-symbol" style="top:240px; right:100px; font-size:28px; transform:rotate(-10deg);">v = 1200</span>
-    <span class="hero-math-symbol" style="top:20px; right:40px; font-size:26px; transform:rotate(9deg);">G1 X102</span>
+    <span class="hero-math-symbol" style="top:20px; right:40px; font-size:26px; transform:rotate(9deg);">Ra 1,6</span>
 
     <div class="hero-container">
         <div class="hero-progression">
-            <span class="num">цех</span>
+            <span class="num word">цех</span>
             <svg class="arrow" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-            <span class="num">данные</span>
+            <span class="num word">данные</span>
             <svg class="arrow" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-            <span class="num accent">модель</span>
+            <span class="num accent word">модель</span>
         </div>
 
         <div class="hero-labels">
@@ -716,7 +722,7 @@
     </div>
 
     <div class="hero-stats">
-        <div class="stat-item"><span class="stat-label">204 урока</span></div>
+        <div class="stat-item"><span class="stat-label">257 уроков</span></div>
         <div class="stat-item"><span class="stat-label">Схемы к каждой теме</span></div>
         <div class="stat-item"><span class="stat-label">Бесплатно</span></div>
     </div>
@@ -867,7 +873,7 @@
     .bio-course-card h3 { margin: 14px 0 6px; font-size: 18px; }
     .bio-course-card p { margin: 0; font-size: 14px; color: #6B7280; line-height: 1.45; }
     .bio-future { color: inherit; text-decoration: none; }
-    .bio-future .step-number { background: #F0FDF4; font-size: 22px; }
+    .bio-future .step-number { background: #fff7ed; font-size: 22px; }
 </style>
 <style>
     .exam-promo {

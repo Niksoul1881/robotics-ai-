@@ -19,8 +19,8 @@
   <text x="255" y="236" text-anchor="middle" font-size="12" fill="#475569">одна строка = одна деталь</text>
   <text x="255" y="256" text-anchor="middle" font-size="12" fill="#475569">признаки: размер, вибрация, ток</text>
   <text x="255" y="276" text-anchor="middle" font-size="12" fill="#475569">результат: годна / брак / тип дефекта</text>
-  <text x="255" y="306" text-anchor="middle" font-size="13" font-weight="bold" fill="#166534">Модель: классификация</text>
-  <text x="255" y="330" text-anchor="middle" font-size="12" fill="#16A34A">«эта деталь с дефектом?»</text>
+  <text x="255" y="306" text-anchor="middle" font-size="13" font-weight="bold" fill="#7c2d12">Модель: классификация</text>
+  <text x="255" y="330" text-anchor="middle" font-size="12" fill="#EA580C">«эта деталь с дефектом?»</text>
 
   <!-- непрерывное -->
   <rect x="510" y="56" width="470" height="300" rx="14" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
@@ -32,6 +32,6 @@
   <text x="745" y="236" text-anchor="middle" font-size="12" fill="#475569">одна строка = один момент времени</text>
   <text x="745" y="256" text-anchor="middle" font-size="12" fill="#475569">признаки: температура, давление, расход</text>
   <text x="745" y="276" text-anchor="middle" font-size="12" fill="#475569">результат: значение через час</text>
-  <text x="745" y="306" text-anchor="middle" font-size="13" font-weight="bold" fill="#166534">Модель: прогноз ряда</text>
-  <text x="745" y="330" text-anchor="middle" font-size="12" fill="#16A34A">«какая будет температура?»</text>
+  <text x="745" y="306" text-anchor="middle" font-size="13" font-weight="bold" fill="#7c2d12">Модель: прогноз ряда</text>
+  <text x="745" y="330" text-anchor="middle" font-size="12" fill="#EA580C">«какая будет температура?»</text>
 </svg>

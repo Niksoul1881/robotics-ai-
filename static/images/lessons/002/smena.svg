@@ -16,7 +16,7 @@
   </g>
 
   <!-- работа -->
-  <g fill="#bbf7d0" stroke="#16A34A" stroke-width="1.5">
+  <g fill="#fed7aa" stroke="#EA580C" stroke-width="1.5">
     <rect x="60" y="86" width="120" height="28" rx="4"/>
     <rect x="270" y="86" width="110" height="28" rx="4"/>
     <rect x="470" y="86" width="90" height="28" rx="4"/>
@@ -43,6 +43,6 @@
   <line x1="40" y1="180" x2="960" y2="180" stroke="#e5e7eb" stroke-width="2"/>
   <text x="500" y="208" text-anchor="middle" font-size="13.5" fill="#374151">Восемь часов смены — это не восемь часов выпуска. Реально станок работает 6–6,5 часов.</text>
   <text x="500" y="234" text-anchor="middle" font-size="13.5" fill="#374151">Всё, что в красном, — простой. И именно он чаще всего и есть узкое место, а не скорость обработки.</text>
-  <text x="500" y="264" text-anchor="middle" font-size="13" fill="#16A34A" font-weight="bold">Поэтому в данных появляются пропуски: пока станок стоит, датчики либо молчат, либо пишут нули.</text>
+  <text x="500" y="264" text-anchor="middle" font-size="13" fill="#EA580C" font-weight="bold">Поэтому в данных появляются пропуски: пока станок стоит, датчики либо молчат, либо пишут нули.</text>
   <text x="500" y="288" text-anchor="middle" font-size="12.5" fill="#6b7280">Различить «станок выключен» и «датчик отвалился» — отдельная задача (курс 9).</text>
 </svg>

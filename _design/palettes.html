@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8">
+<title>Палитры</title>
+<style>
+  body { margin:0; background:#F5F5F4; font-family: Inter, Arial, sans-serif; color:#111827; }
+  .wrap { max-width: 1320px; margin: 0 auto; padding: 32px 24px 60px; }
+  h1 { font-family: Montserrat, Arial, sans-serif; font-size: 34px; margin: 0 0 6px; letter-spacing:-.02em; }
+  .sub { color:#6B7280; margin:0 0 28px; font-size:15px; }
+  .grid { display:grid; grid-template-columns: repeat(3, 1fr); gap:20px; }
+  .card { background:#fff; border-radius:16px; border:1px solid #E5E7EB; overflow:hidden; }
+  .mock { padding:16px 18px; border-bottom:1px solid #F3F4F6; }
+  .mock .top { display:flex; align-items:center; justify-content:space-between; margin-bottom:14px; }
+  .mock .brand { display:flex; align-items:center; gap:8px; font-weight:800; font-size:14px; }
+  .mock .mark { width:20px; height:20px; border-radius:5px; }
+  .mock .nav { font-size:11px; color:#6B7280; display:flex; gap:10px; }
+  .mock .btn { font-size:11px; font-weight:700; padding:6px 12px; border-radius:999px; color:#fff; }
+  .mock .big { font-family: Montserrat, Arial, sans-serif; font-weight:900; font-size:30px; line-height:1.05; letter-spacing:-.03em; }
+  .mock .big i { font-style:normal; }
+  .meta { padding:14px 18px 18px; }
+  .name { font-weight:800; font-size:15px; margin:0 0 2px; }
+  .why { font-size:12.5px; color:#6B7280; margin:0 0 12px; line-height:1.45; }
+  .sw { display:flex; gap:6px; margin-bottom:10px; }
+  .chip { flex:1; height:26px; border-radius:6px; border:1px solid rgba(0,0,0,.06); }
+  .hex { font-family: Consolas, monospace; font-size:10.5px; color:#9CA3AF; display:flex; gap:6px; }
+  .hex span { flex:1; }
+  .mark-css { background:#111; display:flex; align-items:center; justify-content:center; }
+  .brandnote { font-size:11.5px; color:#9CA3AF; margin-top:10px; }
+</style></head>
+<body><div class="wrap">
+  <h1>Шесть палитр для «Промышленного ML»</h1>
+  <p class="sub">Все цвета взяты из реального мира станков и роботов, а не из «красивого градиента»</p>
+
+  <div class="grid">
+
+    <!-- 1. KUKA orange -->
+    <div class="card">
+      <div class="mock">
+        <div class="top">
+          <div class="brand"><span class="mark mark-css" style="background:#111"><svg width="14" height="14" viewBox="0 0 24 24"><polygon points="12,3 20,7.5 20,16.5 12,21 4,16.5 4,7.5" fill="none" stroke="#fff" stroke-width="2.6"/><circle cx="12" cy="12" r="3.2" fill="#EA580C"/></svg></span>Промышленный ML</div>
+          <span class="btn" style="background:#EA580C">Программа</span>
+        </div>
+        <div class="big">от станка до <i style="color:#EA580C">модели</i></div>
+      </div>
+      <div class="meta">
+        <p class="name">1. Оранжевый KUKA</p>
+        <p class="why">Сейчас стоит он. Роботы KUKA красят ровно в этот оранжевый — это цвет промышленной робототехники и сигнальной спецодежды.</p>
+        <div class="sw"><span class="chip" style="background:#EA580C"></span><span class="chip" style="background:#C2410C"></span><span class="chip" style="background:#7C2D12"></span><span class="chip" style="background:#111827"></span><span class="chip" style="background:#FFF7ED"></span></div>
+        <div class="hex"><span>#EA580C</span><span>#C2410C</span><span>#7C2D12</span><span>#111827</span><span>#FFF7ED</span></div>
+      </div>
+    </div>
+
+    <!-- 2. FANUC yellow -->
+    <div class="card">
+      <div class="mock">
+        <div class="top">
+          <div class="brand"><span class="mark mark-css" style="background:#111"><svg width="14" height="14" viewBox="0 0 24 24"><polygon points="12,3 20,7.5 20,16.5 12,21 4,16.5 4,7.5" fill="none" stroke="#fff" stroke-width="2.6"/><circle cx="12" cy="12" r="3.2" fill="#FACC15"/></svg></span>Промышленный ML</div>
+          <span class="btn" style="background:#111">Программа</span>
+        </div>
+        <div class="big">от станка до <i style="color:#CA8A04">модели</i></div>
+      </div>
+      <div class="meta">
+        <p class="name">2. Жёлтый FANUC</p>
+        <p class="why">Станки и роботы FANUC — жёлтые, как строительная техника. Читается «тяжёлое оборудование», но на белом фоне жёлтый плохо держит контраст для текста.</p>
+        <div class="sw"><span class="chip" style="background:#FACC15"></span><span class="chip" style="background:#CA8A04"></span><span class="chip" style="background:#854D0E"></span><span class="chip" style="background:#111827"></span><span class="chip" style="background:#FEFCE8"></span></div>
+        <div class="hex"><span>#FACC15</span><span>#CA8A04</span><span>#854D0E</span><span>#111827</span><span>#FEFCE8</span></div>
+      </div>
+    </div>
+
+    <!-- 3. Graphite + steel -->
+    <div class="card">
+      <div class="mock">
+        <div class="top">
+          <div class="brand"><span class="mark mark-css" style="background:#1F2937"><svg width="14" height="14" viewBox="0 0 24 24"><polygon points="12,3 20,7.5 20,16.5 12,21 4,16.5 4,7.5" fill="none" stroke="#fff" stroke-width="2.6"/><circle cx="12" cy="12" r="3.2" fill="#94A3B8"/></svg></span>Промышленный ML</div>
+          <span class="btn" style="background:#1F2937">Программа</span>
+        </div>
+        <div class="big">от станка до <i style="color:#475569">модели</i></div>
+      </div>
+      <div class="meta">
+        <p class="name">3. Графит и сталь</p>
+        <p class="why">ABB делает роботов белыми и графитовыми. Самый «инженерный» вариант: ничего не кричит, читается как технический документ.</p>
+        <div class="sw"><span class="chip" style="background:#0F172A"></span><span class="chip" style="background:#1F2937"></span><span class="chip" style="background:#475569"></span><span class="chip" style="background:#94A3B8"></span><span class="chip" style="background:#F1F5F9"></span></div>
+        <div class="hex"><span>#0F172A</span><span>#1F2937</span><span>#475569</span><span>#94A3B8</span><span>#F1F5F9</span></div>
+      </div>
+    </div>
+
+    <!-- 4. Siemens petrol -->
+    <div class="card">
+      <div class="mock">
+        <div class="top">
+          <div class="brand"><span class="mark mark-css" style="background:#0F172A"><svg width="14" height="14" viewBox="0 0 24 24"><polygon points="12,3 20,7.5 20,16.5 12,21 4,16.5 4,7.5" fill="none" stroke="#fff" stroke-width="2.6"/><circle cx="12" cy="12" r="3.2" fill="#0E7490"/></svg></span>Промышленный ML</div>
+          <span class="btn" style="background:#0E7490">Программа</span>
+        </div>
+        <div class="big">от станка до <i style="color:#0E7490">модели</i></div>
+      </div>
+      <div class="meta">
+        <p class="name">4. Петроль Siemens</p>
+        <p class="why">Цвет автоматизации и АСУ ТП: так выглядит софт для PLC и SCADA. Технично, но визуально близко к «инженерному синему» всех подряд.</p>
+        <div class="sw"><span class="chip" style="background:#0E7490"></span><span class="chip" style="background:#0891B2"></span><span class="chip" style="background:#155E75"></span><span class="chip" style="background:#0F172A"></span><span class="chip" style="background:#ECFEFF"></span></div>
+        <div class="hex"><span>#0E7490</span><span>#0891B2</span><span>#155E75</span><span>#0F172A</span><span>#ECFEFF</span></div>
+      </div>
+    </div>
+
+    <!-- 5. Blueprint -->
+    <div class="card">
+      <div class="mock">
+        <div class="top">
+          <div class="brand"><span class="mark mark-css" style="background:#1E3A8A"><svg width="14" height="14" viewBox="0 0 24 24"><polygon points="12,3 20,7.5 20,16.5 12,21 4,16.5 4,7.5" fill="none" stroke="#fff" stroke-width="2.6"/><circle cx="12" cy="12" r="3.2" fill="#DBEAFE"/></svg></span>Промышленный ML</div>
+          <span class="btn" style="background:#1D4ED8">Программа</span>
+        </div>
+        <div class="big">от станка до <i style="color:#1D4ED8">модели</i></div>
+      </div>
+      <div class="meta">
+        <p class="name">5. Синий чертёж</p>
+        <p class="why">Синий — цвет машиностроительных чертежей и ГОСТ-документации. Понятно и «по-инженерному», но почти не отличается от тысяч технических сайтов.</p>
+        <div class="sw"><span class="chip" style="background:#1E3A8A"></span><span class="chip" style="background:#1D4ED8"></span><span class="chip" style="background:#3B82F6"></span><span class="chip" style="background:#111827"></span><span class="chip" style="background:#EFF6FF"></span></div>
+        <div class="hex"><span>#1E3A8A</span><span>#1D4ED8</span><span>#3B82F6</span><span>#111827</span><span>#EFF6FF</span></div>
+      </div>
+    </div>
+
+    <!-- 6. Hazard -->
+    <div class="card">
+      <div class="mock">
+        <div class="top">
+          <div class="brand"><span class="mark mark-css" style="background:#111"><svg width="14" height="14" viewBox="0 0 24 24"><polygon points="12,3 20,7.5 20,16.5 12,21 4,16.5 4,7.5" fill="none" stroke="#fff" stroke-width="2.6"/><circle cx="12" cy="12" r="3.2" fill="#F59E0B"/></svg></span>Промышленный ML</div>
+          <span class="btn" style="background:#111; color:#F59E0B">Программа</span>
+        </div>
+        <div class="big" style="color:#fff; background:#111; padding:10px 14px; border-radius:8px; margin-top:6px">от станка до <i style="color:#F59E0B">модели</i></div>
+      </div>
+      <div class="meta">
+        <p class="name">6. Опасная разметка</p>
+        <p class="why">Чёрный плюс янтарный — цвета сигнальной разметки и цеховых табличек. Самый характерный «заводской» вид, но в тёмном варианте требует переверстки.</p>
+        <div class="sw"><span class="chip" style="background:#111827"></span><span class="chip" style="background:#1F2937"></span><span class="chip" style="background:#F59E0B"></span><span class="chip" style="background:#FBBF24"></span><span class="chip" style="background:#F9FAFB"></span></div>
+        <div class="hex"><span>#111827</span><span>#1F2937</span><span>#F59E0B</span><span>#FBBF24</span><span>#F9FAFB</span></div>
+      </div>
+    </div>
+
+  </div>
+</div></body></html>

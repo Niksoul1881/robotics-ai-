@@ -15,9 +15,9 @@
   <text x="620" y="190" text-anchor="middle" font-size="12" fill="#6b7280">диаметр 12 мм</text>
 
   <!-- стрелка припуска -->
-  <line x1="290" y1="131" x2="510" y2="131" stroke="#16A34A" stroke-width="3"/>
-  <path d="M510,125 L524,131 L510,137 z" fill="#16A34A"/>
-  <text x="400" y="112" text-anchor="middle" font-size="13" font-weight="bold" fill="#166534">снимаем 4 мм с каждой стороны</text>
+  <line x1="290" y1="131" x2="510" y2="131" stroke="#EA580C" stroke-width="3"/>
+  <path d="M510,125 L524,131 L510,137 z" fill="#EA580C"/>
+  <text x="400" y="112" text-anchor="middle" font-size="13" font-weight="bold" fill="#7c2d12">снимаем 4 мм с каждой стороны</text>
   <text x="400" y="156" text-anchor="middle" font-size="12" fill="#6b7280">припуск по диаметру = 8 мм</text>
 
   <!-- ошибки -->

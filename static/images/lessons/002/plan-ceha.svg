@@ -22,13 +22,13 @@
   <text x="256" y="352" text-anchor="middle" font-size="11.5" fill="#3b82f6">8 токарных станков, все одинаковые</text>
 
   <!-- участок 2 -->
-  <rect x="486" y="170" width="240" height="194" rx="8" fill="#f0fdf4" stroke="#86efac" stroke-width="2"/>
-  <text x="500" y="194" font-size="13" font-weight="bold" fill="#166534">Участок фрезерный</text>
+  <rect x="486" y="170" width="240" height="194" rx="8" fill="#fff7ed" stroke="#fdba74" stroke-width="2"/>
+  <text x="500" y="194" font-size="13" font-weight="bold" fill="#7c2d12">Участок фрезерный</text>
   <g fill="#cbd5e1" stroke="#64748b" stroke-width="1.5">
     <rect x="510" y="208" width="70" height="46" rx="4"/><rect x="600" y="208" width="70" height="46" rx="4"/>
     <rect x="510" y="278" width="70" height="46" rx="4"/><rect x="600" y="278" width="70" height="46" rx="4"/>
   </g>
-  <text x="606" y="352" text-anchor="middle" font-size="11.5" fill="#16A34A">4 фрезерных с ЧПУ</text>
+  <text x="606" y="352" text-anchor="middle" font-size="11.5" fill="#EA580C">4 фрезерных с ЧПУ</text>
 
   <!-- контроль -->
   <rect x="746" y="170" width="208" height="90" rx="8" fill="#f5f3ff" stroke="#c4b5fd" stroke-width="2"/>

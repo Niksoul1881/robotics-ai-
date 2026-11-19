@@ -189,7 +189,7 @@ courses:
     num: 7
     title: "Классический ML на промышленных данных"
     subtitle: "Бустинг, валидация по времени, метрики и цена ошибки"
-    color: "#16A34A"
+    color: "#C2410C"
     emoji: "🌳"
     count: 20
     sections:

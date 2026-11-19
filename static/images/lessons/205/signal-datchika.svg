@@ -11,18 +11,18 @@
   <rect x="215" y="110" width="80" height="46" rx="6" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
   <text x="255" y="139" text-anchor="middle" font-size="11" fill="#1e3a8a">вход ПЛК</text>
   <text x="170" y="192" text-anchor="middle" font-size="12" fill="#334155">4 мА = минимум, 20 мА = максимум</text>
-  <text x="170" y="216" text-anchor="middle" font-size="12" fill="#16A34A">ток не зависит от длины провода</text>
+  <text x="170" y="216" text-anchor="middle" font-size="12" fill="#EA580C">ток не зависит от длины провода</text>
   <text x="170" y="246" text-anchor="middle" font-size="12" fill="#6b7280">самый надёжный способ</text>
   <text x="170" y="270" text-anchor="middle" font-size="11" fill="#9ca3af">так подключают датчики давления, уровня, температуры</text>
 
   <!-- напряжение -->
-  <rect x="340" y="60" width="300" height="230" rx="14" fill="#f0fdf4" stroke="#86efac" stroke-width="2"/>
-  <text x="490" y="88" text-anchor="middle" font-size="15" font-weight="bold" fill="#166534">Напряжение 0–10 В</text>
-  <rect x="375" y="110" width="70" height="46" rx="6" fill="#bbf7d0" stroke="#16A34A" stroke-width="2"/>
-  <text x="410" y="139" text-anchor="middle" font-size="11" fill="#166534">датчик</text>
-  <line x1="445" y1="133" x2="535" y2="133" stroke="#16A34A" stroke-width="3"/>
-  <rect x="535" y="110" width="80" height="46" rx="6" fill="#dcfce7" stroke="#16A34A" stroke-width="2"/>
-  <text x="575" y="139" text-anchor="middle" font-size="11" fill="#166534">вход ПЛК</text>
+  <rect x="340" y="60" width="300" height="230" rx="14" fill="#fff7ed" stroke="#fdba74" stroke-width="2"/>
+  <text x="490" y="88" text-anchor="middle" font-size="15" font-weight="bold" fill="#7c2d12">Напряжение 0–10 В</text>
+  <rect x="375" y="110" width="70" height="46" rx="6" fill="#fed7aa" stroke="#EA580C" stroke-width="2"/>
+  <text x="410" y="139" text-anchor="middle" font-size="11" fill="#7c2d12">датчик</text>
+  <line x1="445" y1="133" x2="535" y2="133" stroke="#EA580C" stroke-width="3"/>
+  <rect x="535" y="110" width="80" height="46" rx="6" fill="#ffedd5" stroke="#EA580C" stroke-width="2"/>
+  <text x="575" y="139" text-anchor="middle" font-size="11" fill="#7c2d12">вход ПЛК</text>
   <text x="490" y="192" text-anchor="middle" font-size="12" fill="#334155">0 В = ноль, 10 В = максимум</text>
   <text x="490" y="216" text-anchor="middle" font-size="12" fill="#b45309">падение на длинном проводе врёт</text>
   <text x="490" y="246" text-anchor="middle" font-size="12" fill="#6b7280">проще и дешевле</text>
@@ -37,7 +37,7 @@
   <rect x="860" y="110" width="80" height="46" rx="6" fill="#fef3c7" stroke="#b45309" stroke-width="2"/>
   <text x="900" y="139" text-anchor="middle" font-size="11" fill="#92400e">вход ПЛК</text>
   <text x="820" y="192" text-anchor="middle" font-size="12" fill="#334155">есть / нет, 0 или 24 В</text>
-  <text x="820" y="216" text-anchor="middle" font-size="12" fill="#16A34A">«дверь открыта», «деталь на месте»</text>
+  <text x="820" y="216" text-anchor="middle" font-size="12" fill="#EA580C">«дверь открыта», «деталь на месте»</text>
   <text x="820" y="246" text-anchor="middle" font-size="12" fill="#6b7280">концевики, кнопки, датчики присутствия</text>
   <text x="820" y="270" text-anchor="middle" font-size="11" fill="#9ca3af">никакой точности, только факт</text>
 

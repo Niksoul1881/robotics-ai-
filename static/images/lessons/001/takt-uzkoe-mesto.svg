@@ -25,6 +25,6 @@
     <!-- вывод -->
     <line x1="30" y1="268" x2="970" y2="268" stroke="#e5e7eb" stroke-width="2"/>
     <text x="500" y="292" text-anchor="middle" font-size="14" fill="#374151">Деталь выходит раз в 180 с, сколько бы ты ни ускорял фрезеровку и шлифовку.</text>
-    <text x="500" y="314" text-anchor="middle" font-size="14" font-weight="bold" fill="#166534">20 деталей в час. Ускоришь точение вдвое — станет 40.</text>
+    <text x="500" y="314" text-anchor="middle" font-size="14" font-weight="bold" fill="#7c2d12">20 деталей в час. Ускоришь точение вдвое — станет 40.</text>
   </g>
 </svg>

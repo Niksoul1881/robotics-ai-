@@ -3,12 +3,12 @@
   <text x="500" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Почему 24 В не опасно, а 220 В опасно</text>
 
   <!-- 24V -->
-  <rect x="30" y="60" width="450" height="250" rx="14" fill="#f0fdf4" stroke="#86efac" stroke-width="2"/>
-  <text x="255" y="90" text-anchor="middle" font-size="16" font-weight="bold" fill="#166534">24 В (питание датчиков)</text>
+  <rect x="30" y="60" width="450" height="250" rx="14" fill="#fff7ed" stroke="#fdba74" stroke-width="2"/>
+  <text x="255" y="90" text-anchor="middle" font-size="16" font-weight="bold" fill="#7c2d12">24 В (питание датчиков)</text>
   <text x="255" y="130" text-anchor="middle" font-size="13" fill="#334155">Сопротивление тела ≈ 1000 Ом</text>
-  <rect x="105" y="150" width="300" height="40" rx="8" fill="#dcfce7" stroke="#16A34A" stroke-width="2"/>
-  <text x="255" y="176" text-anchor="middle" font-size="13" fill="#166534">ток через тело = 24 / 1000 = 0,024 А</text>
-  <text x="255" y="220" text-anchor="middle" font-size="13" fill="#16A34A" font-weight="bold">24 мА — почувствуешь, но не опасно</text>
+  <rect x="105" y="150" width="300" height="40" rx="8" fill="#ffedd5" stroke="#EA580C" stroke-width="2"/>
+  <text x="255" y="176" text-anchor="middle" font-size="13" fill="#7c2d12">ток через тело = 24 / 1000 = 0,024 А</text>
+  <text x="255" y="220" text-anchor="middle" font-size="13" fill="#EA580C" font-weight="bold">24 мА — почувствуешь, но не опасно</text>
   <text x="255" y="248" text-anchor="middle" font-size="12.5" fill="#475569">можно касаться руками, работая на сухом полу</text>
   <text x="255" y="276" text-anchor="middle" font-size="12.5" fill="#6b7280">но всё равно: коротит, греется, выбивает предохранитель</text>
   <text x="255" y="298" text-anchor="middle" font-size="11.5" fill="#9ca3af">повреждённую изоляцию на 24 В всё равно надо чинить</text>

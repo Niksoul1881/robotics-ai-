@@ -1,4 +1,4 @@
-﻿{{ define "main" }}
+{{ define "main" }}
 
 <!-- 1. ВЕРНУЛ ПОЛОСУ ПРОКРУТКИ -->
 <div class="reading-progress">
@@ -40,7 +40,7 @@
                     <li class="lesson-nav-item">
                         <a href="{{ $p.Permalink }}" class="lesson-nav-link {{ if eq $p.Permalink $.Permalink }}active{{ end }}">
                             <span class="lesson-number">
-                                {{ .num }}
+                                {{ $p.Params.lesson_in_course | default .num }}
                             </span>
                             <span>{{ $p.Title }}</span>
                         </a>
@@ -62,11 +62,17 @@
         <!-- Заголовок -->
         <header class="lesson-header">
             <div class="lesson-meta">
-                {{ if eq .Params.level "elementary" }}
+                {{- $level := .Params.level -}}
+                {{- with .Params.difficulty -}}
+                    {{- if le . 2.0 -}}{{ $level = "elementary" }}
+                    {{- else if le . 3.5 -}}{{ $level = "middle" }}
+                    {{- else -}}{{ $level = "advanced" }}{{- end -}}
+                {{- end -}}
+                {{ if eq $level "elementary" }}
                 <span class="lesson-badge level level-elementary"><span class="level-dot" aria-hidden="true"></span>Начальный</span>
-                {{ else if eq .Params.level "middle" }}
+                {{ else if eq $level "middle" }}
                 <span class="lesson-badge level level-middle"><span class="level-dot" aria-hidden="true"></span>Средний</span>
-                {{ else }}
+                {{ else if eq $level "advanced" }}
                 <span class="lesson-badge level level-advanced"><span class="level-dot" aria-hidden="true"></span>Сложный</span>
                 {{ end }}
                 {{ with .Params.duration }}
@@ -160,7 +166,7 @@
     will-change: transform;
 }
 .progress-bar {
-    height: 100%; background: linear-gradient(90deg, #16A34A, #0F766E);
+    height: 100%; background: linear-gradient(90deg, #EA580C, #9a3412);
     width: 0%; transition: width 0.1s;
 }
 
@@ -326,7 +332,7 @@
 .level-middle .level-dot { background: var(--secondary); }
 .level-advanced .level-dot { background: var(--accent); }
 .lesson-module { display:flex; flex-wrap:wrap; gap:10px; align-items:center; margin:18px 0 6px; font-size:13px; }
-.lesson-module-name { color:#0F766E; font-weight:600; text-decoration:none; }
+.lesson-module-name { color:#9a3412; font-weight:600; text-decoration:none; }
 .lesson-module-name:hover { text-decoration:underline; }
 .lesson-module-count { color:#6B7280; background:#F3F4F6; border-radius:999px; padding:2px 10px; }
 .lesson-title { font-size: 3rem; font-weight: 800; line-height: 1.2; color: #111827; }
@@ -531,7 +537,7 @@
 
     .lesson-content { padding: 30px 20px; }
     .lesson-module { display:flex; flex-wrap:wrap; gap:10px; align-items:center; margin:18px 0 6px; font-size:13px; }
-.lesson-module-name { color:#0F766E; font-weight:600; text-decoration:none; }
+.lesson-module-name { color:#9a3412; font-weight:600; text-decoration:none; }
 .lesson-module-name:hover { text-decoration:underline; }
 .lesson-module-count { color:#6B7280; background:#F3F4F6; border-radius:999px; padding:2px 10px; }
 .lesson-title { font-size: 2rem; }

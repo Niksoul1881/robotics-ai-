@@ -2,7 +2,7 @@
   <rect width="1000" height="330" fill="#ffffff"/>
   <defs>
     <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
-      <path d="M0,0 L10,5 L0,10 z" fill="#16A34A"/>
+      <path d="M0,0 L10,5 L0,10 z" fill="#EA580C"/>
     </marker>
   </defs>
   <text x="500" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Технологический процесс — это цепочка операций над заготовкой</text>
@@ -15,7 +15,7 @@
     <text x="88" y="196" text-anchor="middle" font-size="12" fill="#64748b">пруток стали</text>
   </g>
 
-  <g stroke="#16A34A" stroke-width="3" marker-end="url(#ar)">
+  <g stroke="#EA580C" stroke-width="3" marker-end="url(#ar)">
     <line x1="162" y1="150" x2="196" y2="150"/>
     <line x1="322" y1="150" x2="356" y2="150"/>
     <line x1="482" y1="150" x2="516" y2="150"/>
@@ -24,35 +24,35 @@
 
   <!-- операции -->
   <g>
-    <rect x="200" y="95" width="120" height="110" rx="10" fill="#f0fdf4" stroke="#86efac" stroke-width="2"/>
-    <text x="260" y="122" text-anchor="middle" font-size="14" font-weight="bold" fill="#166534">1. Отрезать</text>
+    <rect x="200" y="95" width="120" height="110" rx="10" fill="#fff7ed" stroke="#fdba74" stroke-width="2"/>
+    <text x="260" y="122" text-anchor="middle" font-size="14" font-weight="bold" fill="#7c2d12">1. Отрезать</text>
     <text x="260" y="146" text-anchor="middle" font-size="12" fill="#4b5563">отрезной</text>
     <text x="260" y="164" text-anchor="middle" font-size="12" fill="#4b5563">станок</text>
-    <text x="260" y="188" text-anchor="middle" font-size="12" fill="#16A34A">40 с</text>
+    <text x="260" y="188" text-anchor="middle" font-size="12" fill="#EA580C">40 с</text>
   </g>
   <g>
-    <rect x="360" y="95" width="120" height="110" rx="10" fill="#f0fdf4" stroke="#86efac" stroke-width="2"/>
-    <text x="420" y="122" text-anchor="middle" font-size="14" font-weight="bold" fill="#166534">2. Точить</text>
+    <rect x="360" y="95" width="120" height="110" rx="10" fill="#fff7ed" stroke="#fdba74" stroke-width="2"/>
+    <text x="420" y="122" text-anchor="middle" font-size="14" font-weight="bold" fill="#7c2d12">2. Точить</text>
     <text x="420" y="146" text-anchor="middle" font-size="12" fill="#4b5563">токарный</text>
     <text x="420" y="164" text-anchor="middle" font-size="12" fill="#4b5563">с ЧПУ</text>
-    <text x="420" y="188" text-anchor="middle" font-size="12" fill="#16A34A">180 с</text>
+    <text x="420" y="188" text-anchor="middle" font-size="12" fill="#EA580C">180 с</text>
   </g>
   <g>
-    <rect x="520" y="95" width="120" height="110" rx="10" fill="#f0fdf4" stroke="#86efac" stroke-width="2"/>
-    <text x="580" y="122" text-anchor="middle" font-size="14" font-weight="bold" fill="#166534">3. Фрезеровать</text>
+    <rect x="520" y="95" width="120" height="110" rx="10" fill="#fff7ed" stroke="#fdba74" stroke-width="2"/>
+    <text x="580" y="122" text-anchor="middle" font-size="14" font-weight="bold" fill="#7c2d12">3. Фрезеровать</text>
     <text x="580" y="146" text-anchor="middle" font-size="12" fill="#4b5563">фрезерный</text>
     <text x="580" y="164" text-anchor="middle" font-size="12" fill="#4b5563">с ЧПУ</text>
-    <text x="580" y="188" text-anchor="middle" font-size="12" fill="#16A34A">150 с</text>
+    <text x="580" y="188" text-anchor="middle" font-size="12" fill="#EA580C">150 с</text>
   </g>
   <g>
-    <rect x="680" y="95" width="120" height="110" rx="10" fill="#f0fdf4" stroke="#86efac" stroke-width="2"/>
-    <text x="740" y="122" text-anchor="middle" font-size="14" font-weight="bold" fill="#166534">4. Шлифовать</text>
+    <rect x="680" y="95" width="120" height="110" rx="10" fill="#fff7ed" stroke="#fdba74" stroke-width="2"/>
+    <text x="740" y="122" text-anchor="middle" font-size="14" font-weight="bold" fill="#7c2d12">4. Шлифовать</text>
     <text x="740" y="146" text-anchor="middle" font-size="12" fill="#4b5563">шлифовальный</text>
     <text x="740" y="164" text-anchor="middle" font-size="12" fill="#4b5563">станок</text>
-    <text x="740" y="188" text-anchor="middle" font-size="12" fill="#16A34A">90 с</text>
+    <text x="740" y="188" text-anchor="middle" font-size="12" fill="#EA580C">90 с</text>
   </g>
 
-  <g stroke="#16A34A" stroke-width="3" marker-end="url(#ar)">
+  <g stroke="#EA580C" stroke-width="3" marker-end="url(#ar)">
     <line x1="802" y1="150" x2="836" y2="150"/>
   </g>
 

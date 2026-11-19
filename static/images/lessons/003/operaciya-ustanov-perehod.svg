@@ -19,15 +19,15 @@
   <text x="70" y="241" font-size="11.5" fill="#1e3a8a">переход 2: точить фаску 1×45°</text>
 
   <!-- установ 2 -->
-  <rect x="510" y="112" width="450" height="160" rx="10" fill="#f0fdf4" stroke="#86efac" stroke-width="2"/>
-  <text x="528" y="136" font-size="13" font-weight="bold" fill="#166534">Установ Б</text>
-  <text x="528" y="154" font-size="11" fill="#16A34A">деталь перевернули и зажали второй раз</text>
+  <rect x="510" y="112" width="450" height="160" rx="10" fill="#fff7ed" stroke="#fdba74" stroke-width="2"/>
+  <text x="528" y="136" font-size="13" font-weight="bold" fill="#7c2d12">Установ Б</text>
+  <text x="528" y="154" font-size="11" fill="#EA580C">деталь перевернули и зажали второй раз</text>
 
-  <rect x="528" y="168" width="414" height="40" rx="6" fill="#dcfce7" stroke="#16A34A" stroke-width="1.5"/>
-  <text x="540" y="193" font-size="11.5" fill="#166534">переход 1: подрезать торец</text>
+  <rect x="528" y="168" width="414" height="40" rx="6" fill="#ffedd5" stroke="#EA580C" stroke-width="1.5"/>
+  <text x="540" y="193" font-size="11.5" fill="#7c2d12">переход 1: подрезать торец</text>
 
-  <rect x="528" y="216" width="414" height="40" rx="6" fill="#dcfce7" stroke="#16A34A" stroke-width="1.5"/>
-  <text x="540" y="241" font-size="11.5" fill="#166534">переход 2: снять фаску</text>
+  <rect x="528" y="216" width="414" height="40" rx="6" fill="#ffedd5" stroke="#EA580C" stroke-width="1.5"/>
+  <text x="540" y="241" font-size="11.5" fill="#7c2d12">переход 2: снять фаску</text>
 
   <text x="500" y="312" text-anchor="middle" font-size="12.5" fill="#374151">Каждая переустановка — это новый шанс получить погрешность: деталь встала чуть иначе.</text>
 </svg>
