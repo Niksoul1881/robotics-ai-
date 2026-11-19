@@ -48,7 +48,7 @@
                     {{- range $s.lessons }}
                         {{- $p := site.GetPage (printf "/%s/%s" $c.id .slug) }}
                         {{- $soon := or (not $p) $p.Params.placeholders }}
-                        <a href="/{{ $c.id }}/{{ .slug }}/" class="lesson-item{{ if $soon }} lesson-soon{{ end }}"><span class="lesson-number">{{ .num }}</span><span class="lesson-title">{{ .title }}</span>{{ if $soon }}<span class="lesson-badge">скоро</span>{{ end }}</a>
+                        <a href="/{{ $c.id }}/{{ .slug }}/" class="lesson-item{{ if $soon }} lesson-soon{{ end }}"><span class="lesson-number">{{ .idx }}</span><span class="lesson-title">{{ .title }}</span>{{ if $soon }}<span class="lesson-badge">скоро</span>{{ end }}</a>
                     {{- end }}
                     </div>
                 </div>
