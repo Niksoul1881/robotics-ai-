@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="420" viewBox="0 0 1000 420" font-family="Arial, Helvetica, sans-serif">
+  <rect width="1000" height="420" fill="#ffffff"/>
+  <text x="500" y="28" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">План цеха сверху: так это выглядит на самом деле</text>
+
+  <!-- стены -->
+  <rect x="30" y="50" width="940" height="330" fill="#f8fafc" stroke="#94a3b8" stroke-width="4"/>
+
+  <!-- склад -->
+  <rect x="46" y="66" width="200" height="90" rx="6" fill="#fef3c7" stroke="#fcd34d" stroke-width="2"/>
+  <text x="146" y="102" text-anchor="middle" font-size="14" font-weight="bold" fill="#92400e">Склад заготовок</text>
+  <text x="146" y="124" text-anchor="middle" font-size="11.5" fill="#a16207">прутки, листы на стеллажах</text>
+
+  <!-- участок 1 -->
+  <rect x="46" y="170" width="420" height="194" rx="8" fill="#eff6ff" stroke="#93c5fd" stroke-width="2"/>
+  <text x="60" y="194" font-size="13" font-weight="bold" fill="#1e40af">Участок токарный</text>
+  <g fill="#cbd5e1" stroke="#64748b" stroke-width="1.5">
+    <rect x="70" y="208" width="70" height="46" rx="4"/><rect x="160" y="208" width="70" height="46" rx="4"/>
+    <rect x="250" y="208" width="70" height="46" rx="4"/><rect x="340" y="208" width="70" height="46" rx="4"/>
+    <rect x="70" y="278" width="70" height="46" rx="4"/><rect x="160" y="278" width="70" height="46" rx="4"/>
+    <rect x="250" y="278" width="70" height="46" rx="4"/><rect x="340" y="278" width="70" height="46" rx="4"/>
+  </g>
+  <text x="256" y="352" text-anchor="middle" font-size="11.5" fill="#3b82f6">8 токарных станков, все одинаковые</text>
+
+  <!-- участок 2 -->
+  <rect x="486" y="170" width="240" height="194" rx="8" fill="#f0fdf4" stroke="#86efac" stroke-width="2"/>
+  <text x="500" y="194" font-size="13" font-weight="bold" fill="#166534">Участок фрезерный</text>
+  <g fill="#cbd5e1" stroke="#64748b" stroke-width="1.5">
+    <rect x="510" y="208" width="70" height="46" rx="4"/><rect x="600" y="208" width="70" height="46" rx="4"/>
+    <rect x="510" y="278" width="70" height="46" rx="4"/><rect x="600" y="278" width="70" height="46" rx="4"/>
+  </g>
+  <text x="606" y="352" text-anchor="middle" font-size="11.5" fill="#16A34A">4 фрезерных с ЧПУ</text>
+
+  <!-- контроль -->
+  <rect x="746" y="170" width="208" height="90" rx="8" fill="#f5f3ff" stroke="#c4b5fd" stroke-width="2"/>
+  <text x="850" y="196" text-anchor="middle" font-size="13" font-weight="bold" fill="#5b21b6">Контроль (ОТК)</text>
+  <text x="850" y="218" text-anchor="middle" font-size="11.5" fill="#7c3aed">стол, приборы,</text>
+  <text x="850" y="236" text-anchor="middle" font-size="11.5" fill="#7c3aed">контролёр глазами и руками</text>
+
+  <!-- готово -->
+  <rect x="746" y="274" width="208" height="90" rx="8" fill="#fef2f2" stroke="#fca5a5" stroke-width="2"/>
+  <text x="850" y="300" text-anchor="middle" font-size="13" font-weight="bold" fill="#991b1b">Готовая продукция</text>
+  <text x="850" y="322" text-anchor="middle" font-size="11.5" fill="#b91c1c">упаковка, отгрузка</text>
+
+  <!-- проход -->
+  <rect x="46" y="378" width="908" height="0" fill="none"/>
+  <text x="500" y="404" text-anchor="middle" font-size="12" fill="#6b7280">Светлая полоса между участками — проход для людей и тележек. Он всегда «съедает» место, но без него нельзя.</text>
+</svg>

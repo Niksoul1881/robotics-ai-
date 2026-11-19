@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320" font-family="Arial, Helvetica, sans-serif">
+  <rect width="1000" height="320" fill="#ffffff"/>
+  <text x="500" y="28" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Где возникает брак на маршруте</text>
+
+  <g font-size="11.5">
+    <!-- этап 1 -->
+    <rect x="20" y="60" width="180" height="120" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+    <text x="110" y="86" text-anchor="middle" font-size="13" font-weight="bold" fill="#334155">Отрезка</text>
+    <text x="110" y="112" text-anchor="middle" fill="#dc2626">заусенец</text>
+    <text x="110" y="132" text-anchor="middle" fill="#dc2626">косой торец</text>
+    <text x="110" y="160" text-anchor="middle" fill="#6b7280">износ отрезного диска</text>
+
+    <!-- этап 2 -->
+    <rect x="215" y="60" width="180" height="120" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+    <text x="305" y="86" text-anchor="middle" font-size="13" font-weight="bold" fill="#334155">Точение</text>
+    <text x="305" y="112" text-anchor="middle" fill="#dc2626">размер не в допуске</text>
+    <text x="305" y="132" text-anchor="middle" fill="#dc2626">риска, «дрожание»</text>
+    <text x="305" y="160" text-anchor="middle" fill="#6b7280">износ резца, вибрация</text>
+
+    <!-- этап 3 -->
+    <rect x="410" y="60" width="180" height="120" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+    <text x="500" y="86" text-anchor="middle" font-size="13" font-weight="bold" fill="#334155">Фрезеровка</text>
+    <text x="500" y="112" text-anchor="middle" fill="#dc2626">сбит паз</text>
+    <text x="500" y="132" text-anchor="middle" fill="#dc2626">скол на кромке</text>
+    <text x="500" y="160" text-anchor="middle" fill="#6b7280">смещение заготовки</text>
+
+    <!-- этап 4 -->
+    <rect x="605" y="60" width="180" height="120" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+    <text x="695" y="86" text-anchor="middle" font-size="13" font-weight="bold" fill="#334155">Шлифовка</text>
+    <text x="695" y="112" text-anchor="middle" fill="#dc2626">прижог</text>
+    <text x="695" y="132" text-anchor="middle" fill="#dc2626">шероховатость</text>
+    <text x="695" y="160" text-anchor="middle" fill="#6b7280">«засалился» круг</text>
+
+    <!-- этап 5 -->
+    <rect x="800" y="60" width="180" height="120" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+    <text x="890" y="86" text-anchor="middle" font-size="13" font-weight="bold" fill="#334155">Транспорт</text>
+    <text x="890" y="112" text-anchor="middle" fill="#dc2626">царапины</text>
+    <text x="890" y="132" text-anchor="middle" fill="#dc2626">вмятины</text>
+    <text x="890" y="160" text-anchor="middle" fill="#6b7280">детали бьются друг о друга</text>
+  </g>
+
+  <line x1="20" y1="204" x2="980" y2="204" stroke="#e5e7eb" stroke-width="2"/>
+  <text x="500" y="230" text-anchor="middle" font-size="13.5" fill="#374151">Важное: <tspan font-weight="bold">дефект возникает на одном этапе, а обнаруживается на другом</tspan> — обычно на контроле.</text>
+  <text x="500" y="258" text-anchor="middle" font-size="13" fill="#475569">Между ними может пройти несколько часов и десятки деталей.</text>
+  <text x="500" y="288" text-anchor="middle" font-size="13" fill="#16A34A">Поэтому модели нужны данные не только «после», но и «во время» — иначе она видит только следствие.</text>
+</svg>

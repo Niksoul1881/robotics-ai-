@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="360" viewBox="0 0 1000 360" font-family="Arial, Helvetica, sans-serif">
+  <rect width="1000" height="360" fill="#ffffff"/>
+  <text x="500" y="28" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Данные по уровням: что видно на станке, а что только в цеху</text>
+
+  <g font-size="12.5">
+    <!-- станок -->
+    <rect x="20" y="50" width="300" height="130" rx="12" fill="#eff6ff" stroke="#93c5fd" stroke-width="2"/>
+    <text x="170" y="78" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e40af">Станок</text>
+    <text x="170" y="104" text-anchor="middle" fill="#334155">вибрация, ток, обороты</text>
+    <text x="170" y="126" text-anchor="middle" fill="#334155">температура, позиция оси</text>
+    <text x="170" y="152" text-anchor="middle" fill="#16A34A" font-weight="bold">частота: 10–1000 Гц</text>
+    <text x="170" y="172" text-anchor="middle" fill="#6b7280">миллионы строк в сутки</text>
+
+    <!-- линия -->
+    <rect x="350" y="50" width="300" height="130" rx="12" fill="#f0fdf4" stroke="#86efac" stroke-width="2"/>
+    <text x="500" y="78" text-anchor="middle" font-size="15" font-weight="bold" fill="#166534">Линия / участок</text>
+    <text x="500" y="104" text-anchor="middle" fill="#334155">очередь деталей, простои</text>
+    <text x="500" y="126" text-anchor="middle" fill="#334155">смена инструмента, переналадки</text>
+    <text x="500" y="152" text-anchor="middle" fill="#16A34A" font-weight="bold">частота: событие за событием</text>
+    <text x="500" y="172" text-anchor="middle" fill="#6b7280">тысячи записей в смену</text>
+
+    <!-- цех -->
+    <rect x="680" y="50" width="300" height="130" rx="12" fill="#f5f3ff" stroke="#c4b5fd" stroke-width="2"/>
+    <text x="830" y="78" text-anchor="middle" font-size="15" font-weight="bold" fill="#5b21b6">Цех / завод</text>
+    <text x="830" y="104" text-anchor="middle" fill="#334155">план, факт, брак, OEE</text>
+    <text x="830" y="126" text-anchor="middle" fill="#334155">отгрузка, себестоимость</text>
+    <text x="830" y="152" text-anchor="middle" fill="#16A34A" font-weight="bold">частота: раз в смену/сутки</text>
+    <text x="830" y="172" text-anchor="middle" fill="#6b7280">десятки строк</text>
+  </g>
+
+  <!-- стрелки вверх -->
+  <g stroke="#9ca3af" stroke-width="2.5">
+    <line x1="170" y1="186" x2="170" y2="206"/>
+    <line x1="500" y1="186" x2="500" y2="206"/>
+  </g>
+
+  <line x1="20" y1="212" x2="980" y2="212" stroke="#e5e7eb" stroke-width="2"/>
+
+  <text x="500" y="240" text-anchor="middle" font-size="14" font-weight="bold" fill="#374151">Три типовые ошибки, которые рождаются именно здесь</text>
+  <g font-size="13" fill="#475569">
+    <text x="500" y="268" text-anchor="middle">1. Взять данные станка и пытаться предсказать цеховой показатель (брак за смену) — разные единицы.</text>
+    <text x="500" y="294" text-anchor="middle">2. Смешать частоты: секундные сигналы и суточные планы в одной таблице.</text>
+    <text x="500" y="320" text-anchor="middle">3. Решать на уровне станка проблему, которая живёт на уровне линии (например, ожидание материала).</text>
+  </g>
+  <text x="500" y="348" text-anchor="middle" font-size="12.5" fill="#16A34A">Правило: модель и решение должны быть на одном уровне.</text>
+</svg>

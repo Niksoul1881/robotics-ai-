@@ -1,0 +1,36 @@
+baseURL = 'https://www.prom-ml.ru/'   # домен ещё не куплен — заменить при покупке
+languageCode = 'ru'
+title = 'Промышленный ML'
+
+[params]
+  description = 'Промышленный ML: данные с оборудования, машинное зрение, детекция аномалий и предиктивное обслуживание'
+  telegramBot = '#bot'   # бота пока нет
+  donateUrl = '#'
+  noindexSite = true   # тестовый адрес: закрыт от поиска. При запуске на домене — false и открыть static/robots.txt
+
+[markup.goldmark.renderer]
+  unsafe = true
+[markup.goldmark.extensions]
+  [markup.goldmark.extensions.typographer]
+    disable = true
+[markup.goldmark.extensions.passthrough]
+    enable = true
+    [markup.goldmark.extensions.passthrough.delimiters]
+    block = [['\[', '\]'], ['$$', '$$']]
+    inline = [['\(', '\)'], ['$', '$']]
+
+[outputs]
+  home = ["HTML", "JSON"]
+  section = ["HTML"]
+  page = ["HTML"]
+
+# Дата изменения страницы — из lastmod в front matter.
+enableGitInfo = false
+
+[frontmatter]
+  lastmod = ["lastmod", "date"]
+
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.7

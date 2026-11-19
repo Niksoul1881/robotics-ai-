@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="340" viewBox="0 0 1000 340" font-family="Arial, Helvetica, sans-serif">
+  <rect width="1000" height="340" fill="#ffffff"/>
+  <text x="500" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Постоянный и переменный ток: чем отличаются</text>
+
+  <!-- DC -->
+  <rect x="30" y="60" width="450" height="240" rx="14" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="255" y="88" text-anchor="middle" font-size="16" font-weight="bold" fill="#1e293b">Постоянный ток (DC)</text>
+  <line x1="70" y1="170" x2="440" y2="170" stroke="#cbd5e1" stroke-width="2"/>
+  <line x1="70" y1="170" x2="440" y2="170" stroke="#16A34A" stroke-width="4"/>
+  <text x="255" y="200" text-anchor="middle" font-size="12" fill="#16A34A">5 В всё время, не меняется</text>
+  <text x="255" y="232" text-anchor="middle" font-size="12.5" fill="#475569">Батарейки, аккумуляторы, блоки питания,</text>
+  <text x="255" y="252" text-anchor="middle" font-size="12.5" fill="#475569">датчики, платы, вся электроника</text>
+  <text x="255" y="282" text-anchor="middle" font-size="12" fill="#6b7280">полярность важна: плюс и минус</text>
+
+  <!-- AC -->
+  <rect x="520" y="60" width="450" height="240" rx="14" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="745" y="88" text-anchor="middle" font-size="16" font-weight="bold" fill="#1e293b">Переменный ток (AC)</text>
+  <line x1="560" y1="170" x2="930" y2="170" stroke="#cbd5e1" stroke-width="2"/>
+  <path d="M560,170 Q588,100 616,170 Q644,240 672,170 Q700,100 728,170 Q756,240 784,170 Q812,100 840,170 Q868,240 896,170 Q910,138 930,170"
+        fill="none" stroke="#0891b2" stroke-width="3"/>
+  <text x="745" y="272" text-anchor="middle" font-size="12.5" fill="#475569">Розетка 220 В, моторы, трансформаторы</text>
+  <text x="745" y="294" text-anchor="middle" font-size="12" fill="#dc2626">50 раз в секунду меняет направление</text>
+
+  <text x="500" y="326" text-anchor="middle" font-size="12.5" fill="#6b7280">В промышленной автоматике почти всё внутри шкафа — 24 В DC. 220 В бывает только на питании и на силовых моторах.</text>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="360" viewBox="0 0 1000 360" font-family="Arial, Helvetica, sans-serif">
+  <rect width="1000" height="360" fill="#ffffff"/>
+  <defs>
+    <marker id="ar2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#16A34A"/>
+    </marker>
+  </defs>
+  <text x="500" y="28" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Линия и ячейка: два способа расставить станки</text>
+
+  <!-- линия -->
+  <rect x="20" y="50" width="470" height="280" rx="14" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="255" y="78" text-anchor="middle" font-size="16" font-weight="bold" fill="#1e293b">Линия (поток)</text>
+  <text x="255" y="100" text-anchor="middle" font-size="12" fill="#64748b">деталь идёт по шагам, станки стоят под порядок</text>
+
+  <g fill="#bfdbfe" stroke="#3b82f6" stroke-width="2">
+    <rect x="45" y="130" width="76" height="52" rx="6"/>
+    <rect x="141" y="130" width="76" height="52" rx="6"/>
+    <rect x="237" y="130" width="76" height="52" rx="6"/>
+    <rect x="333" y="130" width="76" height="52" rx="6"/>
+  </g>
+  <g font-size="12" fill="#1e3a8a" text-anchor="middle">
+    <text x="83" y="161">отрез</text><text x="179" y="161">точка</text>
+    <text x="275" y="161">фреза</text><text x="371" y="161">шлиф</text>
+  </g>
+  <g stroke="#16A34A" stroke-width="3" marker-end="url(#ar2)">
+    <line x1="123" y1="156" x2="137" y2="156"/><line x1="219" y1="156" x2="233" y2="156"/>
+    <line x1="315" y1="156" x2="329" y2="156"/>
+  </g>
+  <text x="255" y="212" text-anchor="middle" font-size="12.5" fill="#16A34A" font-weight="bold">Такт задаёт самый медленный станок</text>
+  <text x="255" y="236" text-anchor="middle" font-size="12" fill="#475569">Плюс: минимум запасов, всё прозрачно</text>
+  <text x="255" y="256" text-anchor="middle" font-size="12" fill="#475569">Минус: встал один — встала вся линия</text>
+  <text x="255" y="292" text-anchor="middle" font-size="12" fill="#dc2626">Поломка любого станка = остановка выпуска</text>
+
+  <!-- ячейка -->
+  <rect x="510" y="50" width="470" height="280" rx="14" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="745" y="78" text-anchor="middle" font-size="16" font-weight="bold" fill="#1e293b">Ячейка (группа)</text>
+  <text x="745" y="100" text-anchor="middle" font-size="12" fill="#64748b">станки собраны по типу обработки, деталь ходит между ними</text>
+
+  <g fill="#bbf7d0" stroke="#16A34A" stroke-width="2">
+    <rect x="545" y="130" width="86" height="52" rx="6"/>
+    <rect x="655" y="130" width="86" height="52" rx="6"/>
+    <rect x="545" y="200" width="86" height="52" rx="6"/>
+    <rect x="655" y="200" width="86" height="52" rx="6"/>
+  </g>
+  <g font-size="11.5" fill="#166534" text-anchor="middle">
+    <text x="588" y="160">станок 1</text><text x="698" y="160">станок 2</text>
+    <text x="588" y="230">станок 3</text><text x="698" y="230">станок 4</text>
+  </g>
+  <text x="745" y="292" text-anchor="middle" font-size="12.5" fill="#16A34A" font-weight="bold">Гибко: можно делать разные детали</text>
+  <text x="745" y="316" text-anchor="middle" font-size="12" fill="#475569">Минус: запасы между станками и дольше путь детали</text>
+  <ellipse cx="890" cy="176" rx="46" ry="34" fill="#fef3c7" stroke="#fcd34d" stroke-width="2"/>
+  <text x="890" y="172" text-anchor="middle" font-size="11" fill="#92400e">буфер</text>
+  <text x="890" y="188" text-anchor="middle" font-size="11" fill="#92400e">деталей</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="380" viewBox="0 0 1000 380" font-family="Arial, Helvetica, sans-serif">
+  <rect width="1000" height="380" fill="#ffffff"/>
+  <text x="500" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Аналогия, которая работает: вода в трубе</text>
+
+  <!-- бак -->
+  <path d="M70,70 L70,190 L230,190 L230,70 z" fill="#dbeafe" stroke="#3b82f6" stroke-width="3"/>
+  <rect x="70" y="110" width="160" height="80" fill="#93c5fd"/>
+  <text x="150" y="60" text-anchor="middle" font-size="13" font-weight="bold" fill="#1e40af">Бак с водой</text>
+  <text x="150" y="154" text-anchor="middle" font-size="12" fill="#1e3a8a">напор = напряжение</text>
+
+  <!-- труба -->
+  <rect x="230" y="150" width="220" height="34" fill="#cbd5e1" stroke="#64748b" stroke-width="2"/>
+  <text x="340" y="140" text-anchor="middle" font-size="12" fill="#334155">поток = ток</text>
+
+  <!-- сужение -->
+  <path d="M450,150 L500,164 L500,170 L450,184 z" fill="#fca5a5" stroke="#dc2626" stroke-width="2"/>
+  <rect x="500" y="164" width="90" height="6" fill="#fca5a5" stroke="#dc2626" stroke-width="2"/>
+  <text x="545" y="150" text-anchor="middle" font-size="12" fill="#991b1b">сопротивление</text>
+  <text x="545" y="196" text-anchor="middle" font-size="11" fill="#6b7280">узкое место</text>
+
+  <!-- выход -->
+  <rect x="590" y="150" width="180" height="34" fill="#cbd5e1" stroke="#64748b" stroke-width="2"/>
+  <text x="680" y="140" text-anchor="middle" font-size="12" fill="#334155">дошло меньше</text>
+
+  <g stroke="#3b82f6" stroke-width="3">
+    <line x1="150" y1="196" x2="150" y2="240"/><line x1="150" y1="240" x2="770" y2="240"/><line x1="770" y1="240" x2="770" y2="196"/>
+  </g>
+  <text x="460" y="262" text-anchor="middle" font-size="12" fill="#3b82f6">контур: вода возвращается в бак</text>
+
+  <text x="500" y="296" text-anchor="middle" font-size="13.5" fill="#374151">Напряжение — это <tspan font-weight="bold">давление</tspan>. Ток — <tspan font-weight="bold">сколько протекает</tspan>. Сопротивление — <tspan font-weight="bold">насколько узко</tspan>.</text>
+  <text x="500" y="322" text-anchor="middle" font-size="13.5" fill="#374151">Подняли давление — поток вырос. Сузили трубу — поток упал, а давление перед сужением выросло.</text>
+  <text x="500" y="352" text-anchor="middle" font-size="12.5" fill="#16A34A">Именно поэтому «ток = напряжение / сопротивление» называют законом Ома.</text>
+</svg>

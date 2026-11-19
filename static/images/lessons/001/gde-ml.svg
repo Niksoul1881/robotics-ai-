@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="360" viewBox="0 0 1000 360" font-family="Arial, Helvetica, sans-serif">
+  <rect width="1000" height="360" fill="#ffffff"/>
+  <text x="500" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Четыре места, где ML реально приносит деньги</text>
+
+  <g font-size="13">
+    <rect x="18" y="56" width="232" height="272" rx="14" fill="#f5f3ff" stroke="#ddd6fe" stroke-width="2"/>
+    <text x="134" y="86" text-anchor="middle" font-size="16" font-weight="bold" fill="#5b21b6">Контроль качества</text>
+    <circle cx="134" cy="132" r="26" fill="#ede9fe" stroke="#c4b5fd" stroke-width="2"/>
+    <text x="134" y="140" text-anchor="middle" font-size="20">👁</text>
+    <text x="134" y="184" text-anchor="middle" fill="#4c1d95" font-weight="bold">Что решаем</text>
+    <text x="134" y="206" text-anchor="middle" fill="#6b7280">дефект или годная</text>
+    <text x="134" y="234" text-anchor="middle" fill="#4c1d95" font-weight="bold">Данные</text>
+    <text x="134" y="256" text-anchor="middle" fill="#6b7280">изображение детали</text>
+    <text x="134" y="284" text-anchor="middle" fill="#4c1d95" font-weight="bold">Что ломается</text>
+    <text x="134" y="306" text-anchor="middle" fill="#6b7280">свет и настройка</text>
+
+    <rect x="262" y="56" width="232" height="272" rx="14" fill="#fffbeb" stroke="#fde68a" stroke-width="2"/>
+    <text x="378" y="86" text-anchor="middle" font-size="16" font-weight="bold" fill="#92400e">Износ и отказы</text>
+    <circle cx="378" cy="132" r="26" fill="#fef3c7" stroke="#fcd34d" stroke-width="2"/>
+    <text x="378" y="140" text-anchor="middle" font-size="20">⚙️</text>
+    <text x="378" y="184" text-anchor="middle" fill="#78350f" font-weight="bold">Что решаем</text>
+    <text x="378" y="206" text-anchor="middle" fill="#6b7280">когда менять узел</text>
+    <text x="378" y="234" text-anchor="middle" fill="#78350f" font-weight="bold">Данные</text>
+    <text x="378" y="256" text-anchor="middle" fill="#6b7280">вибрация, ток, темп.</text>
+    <text x="378" y="284" text-anchor="middle" fill="#78350f" font-weight="bold">Что ломается</text>
+    <text x="378" y="306" text-anchor="middle" fill="#6b7280">мало отказов в истории</text>
+
+    <rect x="506" y="56" width="232" height="272" rx="14" fill="#ecfeff" stroke="#a5f3fc" stroke-width="2"/>
+    <text x="622" y="86" text-anchor="middle" font-size="16" font-weight="bold" fill="#155e75">Прогноз и режим</text>
+    <circle cx="622" cy="132" r="26" fill="#cffafe" stroke="#67e8f9" stroke-width="2"/>
+    <text x="622" y="140" text-anchor="middle" font-size="20">📈</text>
+    <text x="622" y="184" text-anchor="middle" fill="#164e63" font-weight="bold">Что решаем</text>
+    <text x="622" y="206" text-anchor="middle" fill="#6b7280">сколько будет завтра</text>
+    <text x="622" y="234" text-anchor="middle" fill="#164e63" font-weight="bold">Данные</text>
+    <text x="622" y="256" text-anchor="middle" fill="#6b7280">ряды телеметрии</text>
+    <text x="622" y="284" text-anchor="middle" fill="#164e63" font-weight="bold">Что ломается</text>
+    <text x="622" y="306" text-anchor="middle" fill="#6b7280">смена режима, дрейф</text>
+
+    <rect x="750" y="56" width="232" height="272" rx="14" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="2"/>
+    <text x="866" y="86" text-anchor="middle" font-size="16" font-weight="bold" fill="#166534">Безопасность</text>
+    <circle cx="866" cy="132" r="26" fill="#dcfce7" stroke="#86efac" stroke-width="2"/>
+    <text x="866" y="140" text-anchor="middle" font-size="20">🦺</text>
+    <text x="866" y="184" text-anchor="middle" fill="#14532d" font-weight="bold">Что решаем</text>
+    <text x="866" y="206" text-anchor="middle" fill="#6b7280">человек в опасной зоне</text>
+    <text x="866" y="234" text-anchor="middle" fill="#14532d" font-weight="bold">Данные</text>
+    <text x="866" y="256" text-anchor="middle" fill="#6b7280">видео, датчики</text>
+    <text x="866" y="284" text-anchor="middle" fill="#14532d" font-weight="bold">Что ломается</text>
+    <text x="866" y="306" text-anchor="middle" fill="#6b7280">цена пропуска = травма</text>
+  </g>
+
+  <text x="500" y="348" text-anchor="middle" font-size="13" fill="#9ca3af">Во всех четырёх сначала надо понять процесс, и только потом обучать модель</text>
+</svg>

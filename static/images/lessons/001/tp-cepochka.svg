@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="330" viewBox="0 0 1000 330" font-family="Arial, Helvetica, sans-serif">
+  <rect width="1000" height="330" fill="#ffffff"/>
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#16A34A"/>
+    </marker>
+  </defs>
+  <text x="500" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Технологический процесс — это цепочка операций над заготовкой</text>
+
+  <!-- заготовка -->
+  <g>
+    <rect x="18" y="90" width="140" height="120" rx="12" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="2"/>
+    <text x="88" y="120" text-anchor="middle" font-size="15" font-weight="bold" fill="#334155">Заготовка</text>
+    <rect x="48" y="140" width="80" height="34" rx="4" fill="#94a3b8"/>
+    <text x="88" y="196" text-anchor="middle" font-size="12" fill="#64748b">пруток стали</text>
+  </g>
+
+  <g stroke="#16A34A" stroke-width="3" marker-end="url(#ar)">
+    <line x1="162" y1="150" x2="196" y2="150"/>
+    <line x1="322" y1="150" x2="356" y2="150"/>
+    <line x1="482" y1="150" x2="516" y2="150"/>
+    <line x1="642" y1="150" x2="676" y2="150"/>
+  </g>
+
+  <!-- операции -->
+  <g>
+    <rect x="200" y="95" width="120" height="110" rx="10" fill="#f0fdf4" stroke="#86efac" stroke-width="2"/>
+    <text x="260" y="122" text-anchor="middle" font-size="14" font-weight="bold" fill="#166534">1. Отрезать</text>
+    <text x="260" y="146" text-anchor="middle" font-size="12" fill="#4b5563">отрезной</text>
+    <text x="260" y="164" text-anchor="middle" font-size="12" fill="#4b5563">станок</text>
+    <text x="260" y="188" text-anchor="middle" font-size="12" fill="#16A34A">40 с</text>
+  </g>
+  <g>
+    <rect x="360" y="95" width="120" height="110" rx="10" fill="#f0fdf4" stroke="#86efac" stroke-width="2"/>
+    <text x="420" y="122" text-anchor="middle" font-size="14" font-weight="bold" fill="#166534">2. Точить</text>
+    <text x="420" y="146" text-anchor="middle" font-size="12" fill="#4b5563">токарный</text>
+    <text x="420" y="164" text-anchor="middle" font-size="12" fill="#4b5563">с ЧПУ</text>
+    <text x="420" y="188" text-anchor="middle" font-size="12" fill="#16A34A">180 с</text>
+  </g>
+  <g>
+    <rect x="520" y="95" width="120" height="110" rx="10" fill="#f0fdf4" stroke="#86efac" stroke-width="2"/>
+    <text x="580" y="122" text-anchor="middle" font-size="14" font-weight="bold" fill="#166534">3. Фрезеровать</text>
+    <text x="580" y="146" text-anchor="middle" font-size="12" fill="#4b5563">фрезерный</text>
+    <text x="580" y="164" text-anchor="middle" font-size="12" fill="#4b5563">с ЧПУ</text>
+    <text x="580" y="188" text-anchor="middle" font-size="12" fill="#16A34A">150 с</text>
+  </g>
+  <g>
+    <rect x="680" y="95" width="120" height="110" rx="10" fill="#f0fdf4" stroke="#86efac" stroke-width="2"/>
+    <text x="740" y="122" text-anchor="middle" font-size="14" font-weight="bold" fill="#166534">4. Шлифовать</text>
+    <text x="740" y="146" text-anchor="middle" font-size="12" fill="#4b5563">шлифовальный</text>
+    <text x="740" y="164" text-anchor="middle" font-size="12" fill="#4b5563">станок</text>
+    <text x="740" y="188" text-anchor="middle" font-size="12" fill="#16A34A">90 с</text>
+  </g>
+
+  <g stroke="#16A34A" stroke-width="3" marker-end="url(#ar)">
+    <line x1="802" y1="150" x2="836" y2="150"/>
+  </g>
+
+  <!-- деталь -->
+  <g>
+    <rect x="840" y="90" width="142" height="120" rx="12" fill="#eff6ff" stroke="#93c5fd" stroke-width="2"/>
+    <text x="911" y="120" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e3a8a">Деталь</text>
+    <rect x="872" y="138" width="80" height="26" rx="10" fill="#60a5fa"/>
+    <text x="911" y="196" text-anchor="middle" font-size="12" fill="#3b82f6">вал Ø12 h7</text>
+  </g>
+
+  <!-- контроль -->
+  <line x1="18" y1="240" x2="982" y2="240" stroke="#e5e7eb" stroke-width="2"/>
+  <text x="500" y="268" text-anchor="middle" font-size="14" font-weight="bold" fill="#374151">Контроль — не отдельная операция, а проверка после каждой:</text>
+  <text x="500" y="292" text-anchor="middle" font-size="13" fill="#6b7280">размер, шероховатость, отсутствие трещин. Именно здесь появляются данные для модели.</text>
+  <text x="500" y="314" text-anchor="middle" font-size="13" fill="#dc2626">Суммарное время по операциям = 460 с, и самое медленное — точение. Это и есть узкое место.</text>
+</svg>

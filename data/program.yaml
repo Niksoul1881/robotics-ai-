@@ -1,0 +1,437 @@
+# Сгенерировано scripts/gen_program.py из PROGRAM.md — правь PROGRAM.md и перезапускай
+courses:
+  - id: proizvodstvo
+    title: "Производство для айтишника"
+    subtitle: "Станки, допуски, износ, данные с оборудования"
+    color: "#475569"
+    emoji: "🏭"
+    count: 16
+    sections:
+      - title: "Как устроено производство"
+        lessons:
+          - { num: 1, slug: "001-chto-takoe-proizvodstvo-i-tehnologicheskiy-process", title: "Что такое производство и технологический процесс" }
+          - { num: 2, slug: "002-ceh-uchastok-liniya-yacheyka", title: "Цех, участок, линия, ячейка" }
+          - { num: 3, slug: "003-put-zagotovki-ot-prutka-do-detali", title: "Путь заготовки: от прутка до детали" }
+          - { num: 4, slug: "004-tokarnyy-frezernyy-shlifovalnyy-chem-otlichayutsya", title: "Токарный, фрезерный, шлифовальный: чем отличаются" }
+          - { num: 5, slug: "005-chpu-kak-stanok-ponimaet-programmu", title: "ЧПУ: как станок понимает программу" }
+          - { num: 6, slug: "006-g-kod-chitaem-pervuyu-programmu", title: "G-код: читаем первую программу" }
+      - title: "Точность, материал, износ"
+        lessons:
+          - { num: 7, slug: "007-rezhimy-rezaniya-skorost-podacha-glubina", title: "Режимы резания: скорость, подача, глубина" }
+          - { num: 8, slug: "008-tochnost-dopusk-posadka-pochemu-mikron-eto-mnogo", title: "Точность, допуск, посадка: почему микрон это много" }
+          - { num: 9, slug: "009-materialy-stal-alyuminiy-chugun-plastik", title: "Материалы: сталь, алюминий, чугун, пластик" }
+          - { num: 10, slug: "010-iznos-instrumenta-kak-on-vyglyadit-fizicheski", title: "Износ инструмента: как он выглядит физически" }
+          - { num: 11, slug: "011-defekty-carapiny-zausency-treshchiny-koroblenie", title: "Дефекты: царапины, заусенцы, трещины, коробление" }
+      - title: "Данные с производства"
+        lessons:
+          - { num: 12, slug: "012-sborka-svarka-lite-shtampovka", title: "Сборка, сварка, литьё, штамповка" }
+          - { num: 13, slug: "013-datchiki-na-proizvodstve-enkodery-vibraciya-tok-temperatura", title: "Датчики на производстве: энкодеры, вибрация, ток, температура" }
+          - { num: 14, slug: "014-promyshlennaya-set-pochemu-dannye-idut-ne-kak-v-internete", title: "Промышленная сеть: почему данные идут не как в интернете" }
+          - { num: 15, slug: "015-kak-chitat-tehnicheskoe-zadanie-tehnologa", title: "Как читать техническое задание технолога" }
+          - { num: 16, slug: "016-ekonomika-defekta-skolko-stoit-propushchennyy-brak", title: "Экономика дефекта: сколько стоит пропущенный брак" }
+  - id: signaly
+    title: "Сигналы и измерения"
+    subtitle: "Вибрация, ток, спектр, признаки из сырых данных"
+    color: "#0891B2"
+    emoji: "📈"
+    count: 18
+    sections:
+      - title: "Сигнал и его свойства"
+        lessons:
+          - { num: 17, slug: "017-signal-analogovyy-i-cifrovoy", title: "Сигнал аналоговый и цифровой" }
+          - { num: 18, slug: "018-diskretizaciya-i-teorema-kotelnikova", title: "Дискретизация и теорема Котельникова" }
+          - { num: 19, slug: "019-aliasing-kak-isportit-dannye-do-analiza", title: "Алиасинг: как испортить данные до анализа" }
+          - { num: 20, slug: "020-shum-i-pomehi-na-proizvodstve", title: "Шум и помехи на производстве" }
+          - { num: 21, slug: "021-sinhronizaciya-kanalov", title: "Синхронизация каналов" }
+          - { num: 22, slug: "022-propuski-i-vybrosy-v-signale", title: "Пропуски и выбросы в сигнале" }
+          - { num: 23, slug: "023-normirovka-i-masshtabirovanie", title: "Нормировка и масштабирование" }
+          - { num: 24, slug: "024-kak-sobrat-dataset-iz-syrogo-signala", title: "Как собрать датасет из сырого сигнала" }
+      - title: "Частота и спектр"
+        lessons:
+          - { num: 25, slug: "025-chastota-i-spektr-zachem-nuzhen-fure", title: "Частота и спектр: зачем нужен Фурье" }
+          - { num: 26, slug: "026-bpf-na-praktike", title: "БПФ на практике" }
+          - { num: 27, slug: "027-filtry-nizkih-i-vysokih-chastot", title: "Фильтры низких и высоких частот" }
+          - { num: 28, slug: "028-okonnye-funkcii", title: "Оконные функции" }
+          - { num: 29, slug: "029-spektrogramma-i-stft", title: "Спектрограмма и STFT" }
+          - { num: 30, slug: "030-priznaki-iz-signala-rms-ekscess-crest-factor", title: "Признаки из сигнала: RMS, эксцесс, crest factor" }
+      - title: "Что измеряют датчики"
+        lessons:
+          - { num: 31, slug: "031-vibraciya-chto-ona-govorit-o-podshipnike", title: "Вибрация: что она говорит о подшипнике" }
+          - { num: 32, slug: "032-tok-i-moshchnost-dvigatelya-kak-diagnostika", title: "Ток и мощность двигателя как диагностика" }
+          - { num: 33, slug: "033-akustika-v-diagnostike", title: "Акустика в диагностике" }
+          - { num: 34, slug: "034-temperatura-i-teplovizor", title: "Температура и тепловизор" }
+  - id: ml-bazis
+    title: "Классический ML на промышленных данных"
+    subtitle: "Бустинг, валидация по времени, метрики и цена ошибки"
+    color: "#16A34A"
+    emoji: "🌳"
+    count: 20
+    sections:
+      - title: "Постановка задачи"
+        lessons:
+          - { num: 35, slug: "035-postanovka-zadachi-regressiya-klassifikaciya-detekciya", title: "Постановка задачи: регрессия, классификация, детекция" }
+          - { num: 36, slug: "036-baseline-pochemu-bez-nego-nelzya", title: "Baseline: почему без него нельзя" }
+          - { num: 37, slug: "037-priznaki-chto-delaet-priznak-horoshim", title: "Признаки: что делает признак хорошим" }
+          - { num: 38, slug: "038-derevo-resheniy", title: "Дерево решений" }
+          - { num: 39, slug: "039-ansambli-i-gradientnyy-busting", title: "Ансамбли и градиентный бустинг" }
+          - { num: 40, slug: "040-catboost-i-lightgbm-na-promyshlennyh-dannyh", title: "CatBoost и LightGBM на промышленных данных" }
+          - { num: 41, slug: "041-pereobuchenie-i-kak-ego-uvidet", title: "Переобучение и как его увидеть" }
+      - title: "Валидация: главное отличие от учебных курсов"
+        lessons:
+          - { num: 42, slug: "042-kross-validaciya-pochemu-random-ne-goditsya", title: "Кросс-валидация: почему random не годится" }
+          - { num: 43, slug: "043-validaciya-po-vremeni", title: "Валидация по времени" }
+          - { num: 44, slug: "044-utechka-dannyh-glavnyy-ubiyca-proektov", title: "Утечка данных: главный убийца проектов" }
+          - { num: 45, slug: "045-disbalans-klassov-brak-0-1-procenta", title: "Дисбаланс классов: брак 0,1 процента" }
+          - { num: 46, slug: "046-giperparametry-chto-krutit", title: "Гиперпараметры: что крутить" }
+          - { num: 47, slug: "047-vosproizvodimost-eksperimentov", title: "Воспроизводимость экспериментов" }
+      - title: "Метрики и интерпретация"
+        lessons:
+          - { num: 48, slug: "048-metriki-precision-recall-f1-pr-auc", title: "Метрики: precision, recall, F1, PR-AUC" }
+          - { num: 49, slug: "049-matrica-oshibok-i-cena-oshibki", title: "Матрица ошибок и цена ошибки" }
+          - { num: 50, slug: "050-roc-i-pochemu-on-vret-pri-disbalanse", title: "ROC и почему он врёт при дисбалансе" }
+          - { num: 51, slug: "051-kalibrovka-veroyatnostey", title: "Калибровка вероятностей" }
+          - { num: 52, slug: "052-interpretaciya-cherez-shap", title: "Интерпретация через SHAP" }
+          - { num: 53, slug: "053-otbor-priznakov", title: "Отбор признаков" }
+          - { num: 54, slug: "054-otchet-po-modeli-dlya-tehnologa", title: "Отчёт по модели для технолога" }
+  - id: ryady
+    title: "Временные ряды и прогнозирование"
+    subtitle: "Тренд, сезонность, прогноз нагрузки и энергии"
+    color: "#0D9488"
+    emoji: "⏱"
+    count: 22
+    sections:
+      - title: "Основы рядов"
+        lessons:
+          - { num: 55, slug: "055-chto-delaet-ryad-vremennym", title: "Что делает ряд временным" }
+          - { num: 56, slug: "056-trend-sezonnost-shum", title: "Тренд, сезонность, шум" }
+          - { num: 57, slug: "057-naivnyy-prognoz-kak-baseline", title: "Наивный прогноз как baseline" }
+          - { num: 58, slug: "058-skolzyashchee-srednee", title: "Скользящее среднее" }
+          - { num: 59, slug: "059-eksponencialnoe-sglazhivanie", title: "Экспоненциальное сглаживание" }
+          - { num: 60, slug: "060-arima-na-palcah", title: "ARIMA на пальцах" }
+          - { num: 61, slug: "061-sezonnaya-dekompoziciya", title: "Сезонная декомпозиция" }
+          - { num: 62, slug: "062-priznaki-iz-vremeni-lagi-i-okna", title: "Признаки из времени: лаги и окна" }
+          - { num: 63, slug: "063-validaciya-walk-forward", title: "Валидация walk-forward" }
+      - title: "Модели"
+        lessons:
+          - { num: 64, slug: "064-busting-na-lagah-rabochaya-loshadka", title: "Бустинг на лагах: рабочая лошадка" }
+          - { num: 65, slug: "065-rekurrentnye-seti-lstm", title: "Рекуррентные сети: LSTM" }
+          - { num: 66, slug: "066-prognoz-na-neskolko-shagov-vpered", title: "Прогноз на несколько шагов вперёд" }
+          - { num: 67, slug: "067-intervaly-neopredelennosti", title: "Интервалы неопределённости" }
+          - { num: 68, slug: "068-dreyf-i-smena-rezhima", title: "Дрейф и смена режима" }
+          - { num: 69, slug: "069-anomalii-vo-vremennom-ryadu", title: "Аномалии во временном ряду" }
+      - title: "Практика и ошибки"
+        lessons:
+          - { num: 70, slug: "070-mae-mape-i-kogda-mape-vret", title: "MAE, MAPE и когда MAPE врёт" }
+          - { num: 71, slug: "071-prognoz-vyrabotki-i-zagruzki", title: "Прогноз выработки и загрузки" }
+          - { num: 72, slug: "072-prognoz-potrebleniya-energii", title: "Прогноз потребления энергии" }
+          - { num: 73, slug: "073-payplayn-pereobucheniya", title: "Пайплайн переобучения" }
+          - { num: 74, slug: "074-kak-obyasnit-prognoz-nachalniku-ceha", title: "Как объяснить прогноз начальнику цеха" }
+          - { num: 75, slug: "075-praktika-prognoz-na-realnyh-dannyh", title: "Практика: прогноз на реальных данных" }
+          - { num: 76, slug: "076-razbor-tipichnyh-oshibok", title: "Разбор типичных ошибок" }
+  - id: anomalii
+    title: "Детекция аномалий и предиктивное обслуживание"
+    subtitle: "Без разметки, остаточный ресурс, ложные тревоги"
+    color: "#B45309"
+    emoji: "⚙️"
+    count: 18
+    sections:
+      - title: "Детекция без разметки"
+        lessons:
+          - { num: 77, slug: "077-chto-takoe-anomaliya", title: "Что такое аномалия" }
+          - { num: 78, slug: "078-pochemu-razmetki-net-i-otkuda-ee-vzyat", title: "Почему разметки нет и откуда её взять" }
+          - { num: 79, slug: "079-statistika-z-score-i-iqr", title: "Статистика: z-score и IQR" }
+          - { num: 80, slug: "080-isolation-forest", title: "Isolation Forest" }
+          - { num: 81, slug: "081-one-class-svm", title: "One-Class SVM" }
+          - { num: 82, slug: "082-avtoenkoder", title: "Автоэнкодер" }
+          - { num: 83, slug: "083-obuchenie-tolko-na-horoshem-norma-i-ee-granicy", title: "Обучение только на хорошем: норма и её границы" }
+          - { num: 84, slug: "084-lozhnye-trevogi-i-kak-oni-ubivayut-doverie", title: "Ложные тревоги и как они убивают доверие" }
+      - title: "Остаточный ресурс"
+        lessons:
+          - { num: 85, slug: "085-rul-ostatochnyy-resurs-oborudovaniya", title: "RUL: остаточный ресурс оборудования" }
+          - { num: 86, slug: "086-nasa-c-mapss-razbor-dataseta", title: "NASA C-MAPSS: разбор датасета" }
+          - { num: 87, slug: "087-priznaki-degradacii", title: "Признаки деградации" }
+          - { num: 88, slug: "088-model-rul", title: "Модель RUL" }
+          - { num: 89, slug: "089-metriki-dlya-rul", title: "Метрики для RUL" }
+          - { num: 90, slug: "090-ot-poroga-k-veroyatnosti-otkaza", title: "От порога к вероятности отказа" }
+          - { num: 91, slug: "091-porog-i-stoimost-oshibki", title: "Порог и стоимость ошибки" }
+          - { num: 92, slug: "092-monitoring-vibracii-podshipnika", title: "Мониторинг вибрации подшипника" }
+      - title: "Внедрение"
+        lessons:
+          - { num: 93, slug: "093-praktika-skvoznoy-proekt", title: "Практика: сквозной проект" }
+          - { num: 94, slug: "094-otchet-i-vnedrenie", title: "Отчёт и внедрение" }
+  - id: vision
+    title: "Компьютерное зрение"
+    subtitle: "CNN, детекция, сегментация, дефекты на изображениях"
+    color: "#7C3AED"
+    emoji: "👁"
+    count: 24
+    sections:
+      - title: "Основы"
+        lessons:
+          - { num: 95, slug: "095-izobrazhenie-kak-massiv-chisel", title: "Изображение как массив чисел" }
+          - { num: 96, slug: "096-cvet-rgb-i-hsv", title: "Цвет: RGB и HSV" }
+          - { num: 97, slug: "097-bazovaya-obrabotka-filtry-i-granicy", title: "Базовая обработка: фильтры и границы" }
+          - { num: 98, slug: "098-chto-vidit-svertochnaya-set", title: "Что видит свёрточная сеть" }
+          - { num: 99, slug: "099-svertka-i-pooling", title: "Свёртка и pooling" }
+          - { num: 100, slug: "100-cnn-s-nulya", title: "CNN с нуля" }
+          - { num: 101, slug: "101-perenos-obucheniya", title: "Перенос обучения" }
+          - { num: 102, slug: "102-augmentacii-zachem-i-kakie", title: "Аугментации: зачем и какие" }
+          - { num: 103, slug: "103-klassifikaciya-defektov", title: "Классификация дефектов" }
+      - title: "Детекция и сегментация"
+        lessons:
+          - { num: 104, slug: "104-detekciya-obektov-iou-i-map", title: "Детекция объектов: IoU и mAP" }
+          - { num: 105, slug: "105-yolo-kak-eto-rabotaet", title: "YOLO: как это работает" }
+          - { num: 106, slug: "106-segmentaciya-u-net", title: "Сегментация: U-Net" }
+          - { num: 107, slug: "107-mvtec-ad-razbor-dataseta", title: "MVTec AD: разбор датасета" }
+          - { num: 108, slug: "108-malo-dannyh-few-shot-i-sintetika", title: "Мало данных: few-shot и синтетика" }
+          - { num: 109, slug: "109-kak-razmechat-defekty", title: "Как размечать дефекты" }
+          - { num: 110, slug: "110-disbalans-v-zrenii", title: "Дисбаланс в зрении" }
+          - { num: 111, slug: "111-ocenka-modeli-glazami-tehnologa", title: "Оценка модели глазами технолога" }
+      - title: "Практика"
+        lessons:
+          - { num: 112, slug: "112-pereobuchenie-na-fon-klassicheskaya-lovushka", title: "Переобучение на фон: классическая ловушка" }
+          - { num: 113, slug: "113-inferens-na-cpu-gpu-i-edge", title: "Инференс на CPU, GPU и edge" }
+          - { num: 114, slug: "114-praktika-klassifikator-defektov", title: "Практика: классификатор дефектов" }
+          - { num: 115, slug: "115-praktika-detektor", title: "Практика: детектор" }
+          - { num: 116, slug: "116-praktika-segmentaciya", title: "Практика: сегментация" }
+          - { num: 117, slug: "117-razbor-provalov", title: "Разбор провалов" }
+          - { num: 118, slug: "118-otchet-po-rezultatam", title: "Отчёт по результатам" }
+  - id: prom-vision
+    title: "Промышленное зрение: физика и стенд"
+    subtitle: "Свет, объектив, калибровка, синхронизация, приёмка"
+    color: "#C026D3"
+    emoji: "🔬"
+    count: 18
+    sections:
+      - title: "Физика съёмки"
+        lessons:
+          - { num: 119, slug: "119-kamera-matrica-razmer-pikselya-shum", title: "Камера: матрица, размер пикселя, шум" }
+          - { num: 120, slug: "120-obektiv-fokus-grip-iskazheniya", title: "Объектив: фокус, ГРИП, искажения" }
+          - { num: 121, slug: "121-osveshchenie-glavnyy-faktor-kachestva", title: "Освещение: главный фактор качества" }
+          - { num: 122, slug: "122-tipy-sveta-kolcevoy-kupol-backlight", title: "Типы света: кольцевой, купол, backlight" }
+          - { num: 123, slug: "123-geometriya-semki", title: "Геометрия съёмки" }
+          - { num: 124, slug: "124-kalibrovka-kamery", title: "Калибровка камеры" }
+          - { num: 125, slug: "125-metrologiya-izmerenie-razmerov-po-izobrazheniyu", title: "Метрология: измерение размеров по изображению" }
+          - { num: 126, slug: "126-ekspoziciya-i-razmytie-na-skorosti", title: "Экспозиция и размытие на скорости" }
+          - { num: 127, slug: "127-pyl-struzhka-vibraciya", title: "Пыль, стружка, вибрация" }
+          - { num: 128, slug: "128-teplovoy-dreyf", title: "Тепловой дрейф" }
+      - title: "Стенд и приёмка"
+        lessons:
+          - { num: 129, slug: "129-zashchita-ip-korpusa-ohlazhdenie", title: "Защита: IP, корпуса, охлаждение" }
+          - { num: 130, slug: "130-kak-vybrat-kameru-pod-zadachu", title: "Как выбрать камеру под задачу" }
+          - { num: 131, slug: "131-triggery-i-sinhronizaciya-s-konveyerom", title: "Триггеры и синхронизация с конвейером" }
+          - { num: 132, slug: "132-proekt-stenda", title: "Проект стенда" }
+          - { num: 133, slug: "133-priemka-kak-dokazat-chto-rabotaet", title: "Приёмка: как доказать, что работает" }
+          - { num: 134, slug: "134-dokumentaciya-dlya-naladchika", title: "Документация для наладчика" }
+          - { num: 135, slug: "135-tipichnye-provaly-pilotov", title: "Типичные провалы пилотов" }
+          - { num: 136, slug: "136-praktika-sobrat-mini-stend", title: "Практика: собрать мини-стенд" }
+  - id: prod
+    title: "ML в продакшене и edge"
+    subtitle: "Инференс, задержки, дрейф, мониторинг, откаты"
+    color: "#DC2626"
+    emoji: "🚀"
+    count: 18
+    sections:
+      - title: "Инференс"
+        lessons:
+          - { num: 137, slug: "137-noutbuk-ne-ceh", title: "Ноутбук не цех" }
+          - { num: 138, slug: "138-servis-inferensa-api", title: "Сервис инференса: API" }
+          - { num: 139, slug: "139-batch-protiv-onlayn", title: "Батч против онлайн" }
+          - { num: 140, slug: "140-edge-jetson-raspberry-kontrollery", title: "Edge: Jetson, Raspberry, контроллеры" }
+          - { num: 141, slug: "141-kvantizaciya-i-uskorenie", title: "Квантизация и ускорение" }
+          - { num: 142, slug: "142-zaderzhka-skolko-dopustimo", title: "Задержка: сколько допустимо" }
+          - { num: 143, slug: "143-nadezhnost-chto-esli-kamera-otvalilas", title: "Надёжность: что если камера отвалилась" }
+          - { num: 144, slug: "144-logirovanie-predskazaniy", title: "Логирование предсказаний" }
+      - title: "Эксплуатация"
+        lessons:
+          - { num: 145, slug: "145-testy-dlya-modeli", title: "Тесты для модели" }
+          - { num: 146, slug: "146-dreyf-dannyh", title: "Дрейф данных" }
+          - { num: 147, slug: "147-monitoring-metrik-v-ekspluatacii", title: "Мониторинг метрик в эксплуатации" }
+          - { num: 148, slug: "148-pereobuchenie-po-raspisaniyu", title: "Переобучение по расписанию" }
+          - { num: 149, slug: "149-versionirovanie-modeley-i-dannyh", title: "Версионирование моделей и данных" }
+          - { num: 150, slug: "150-otkat-na-predydushchuyu-versiyu", title: "Откат на предыдущую версию" }
+          - { num: 151, slug: "151-kto-imeet-pravo-menyat-model", title: "Кто имеет право менять модель" }
+          - { num: 152, slug: "152-praktika-servis-inferensa", title: "Практика: сервис инференса" }
+          - { num: 153, slug: "153-praktika-edge-detektor", title: "Практика: edge-детектор" }
+          - { num: 154, slug: "154-otchet-o-vnedrenii", title: "Отчёт о внедрении" }
+  - id: dannye
+    title: "Данные с оборудования"
+    subtitle: "ПЛК, SCADA, OPC UA, историки, метки времени"
+    color: "#2563EB"
+    emoji: "🔌"
+    count: 16
+    sections:
+      - title: "Источники данных"
+        lessons:
+          - { num: 155, slug: "155-otkuda-berutsya-dannye-plk-scada-istorik", title: "Откуда берутся данные: ПЛК, SCADA, историк" }
+          - { num: 156, slug: "156-opc-ua", title: "OPC UA" }
+          - { num: 157, slug: "157-modbus", title: "Modbus" }
+          - { num: 158, slug: "158-promyshlennye-protokoly-obzor", title: "Промышленные протоколы: обзор" }
+          - { num: 159, slug: "159-historian-pi-i-wonderware", title: "Historian: PI и Wonderware" }
+          - { num: 160, slug: "160-sbor-dannyh-opros-i-podpiska", title: "Сбор данных: опрос и подписка" }
+          - { num: 161, slug: "161-metki-vremeni-i-sinhronizaciya", title: "Метки времени и синхронизация" }
+          - { num: 162, slug: "162-ntp-i-chasovye-poyasa", title: "NTP и часовые пояса" }
+          - { num: 163, slug: "163-propuski-v-potoke", title: "Пропуски в потоке" }
+      - title: "Практика"
+        lessons:
+          - { num: 164, slug: "164-hranenie-time-series-bazy", title: "Хранение: time-series базы" }
+          - { num: 165, slug: "165-kak-organizovat-dataset", title: "Как организовать датасет" }
+          - { num: 166, slug: "166-razmetka-po-zhurnalam-i-zapisyam-smen", title: "Разметка по журналам и записям смен" }
+          - { num: 167, slug: "167-soglasovanie-s-tehnologom", title: "Согласование с технологом" }
+          - { num: 168, slug: "168-ogranicheniya-na-dannye", title: "Ограничения на данные" }
+          - { num: 169, slug: "169-praktika-sobrat-arhiv", title: "Практика: собрать архив" }
+          - { num: 170, slug: "170-praktika-etl", title: "Практика: ETL" }
+  - id: ekonomika
+    title: "Экономика и внедрение"
+    subtitle: "ROI, пилот, сопротивление людей, стандарты"
+    color: "#9333EA"
+    emoji: "💰"
+    count: 14
+    sections:
+      - title: "Деньги и люди"
+        lessons:
+          - { num: 171, slug: "171-zachem-zavodu-ml-dengi-a-ne-tochnost", title: "Зачем заводу ML: деньги, а не точность" }
+          - { num: 172, slug: "172-raschet-roi", title: "Расчёт ROI" }
+          - { num: 173, slug: "173-stoimost-lozhnoy-trevogi", title: "Стоимость ложной тревоги" }
+          - { num: 174, slug: "174-kak-provesti-pilot", title: "Как провести пилот" }
+          - { num: 175, slug: "175-metriki-uspeha-na-yazyke-biznesa", title: "Метрики успеха на языке бизнеса" }
+          - { num: 176, slug: "176-soprotivlenie-lyudey", title: "Сопротивление людей" }
+          - { num: 177, slug: "177-obuchenie-personala", title: "Обучение персонала" }
+      - title: "Формальности и продажа"
+        lessons:
+          - { num: 178, slug: "178-reglamenty-i-instrukcii", title: "Регламенты и инструкции" }
+          - { num: 179, slug: "179-bezopasnost-pri-vnedrenii", title: "Безопасность при внедрении" }
+          - { num: 180, slug: "180-standarty", title: "Стандарты" }
+          - { num: 181, slug: "181-yuridicheskie-aspekty", title: "Юридические аспекты" }
+          - { num: 182, slug: "182-kak-prodat-ideyu-tehnologu", title: "Как продать идею технологу" }
+          - { num: 183, slug: "183-kak-prodat-ideyu-direktoru", title: "Как продать идею директору" }
+          - { num: 184, slug: "184-razbor-keysov", title: "Разбор кейсов" }
+  - id: proekty
+    title: "Проекты"
+    subtitle: "Пять сквозных проектов от постановки до защиты"
+    color: "#E11D48"
+    emoji: "🎯"
+    count: 20
+    sections:
+      - title: "Классификатор дефектов"
+        lessons:
+          - { num: 185, slug: "185-proekt-1-postanovka-i-dataset-mvtec-ad", title: "Проект 1: постановка и датасет MVTec AD" }
+          - { num: 186, slug: "186-proekt-1-podgotovka-dannyh", title: "Проект 1: подготовка данных" }
+          - { num: 187, slug: "187-proekt-1-obuchenie-i-metriki", title: "Проект 1: обучение и метрики" }
+          - { num: 188, slug: "188-proekt-1-razbor-i-zashchita", title: "Проект 1: разбор и защита" }
+      - title: "Остаточный ресурс"
+        lessons:
+          - { num: 189, slug: "189-proekt-2-postanovka-i-nasa-c-mapss", title: "Проект 2: постановка и NASA C-MAPSS" }
+          - { num: 190, slug: "190-proekt-2-priznaki-degradacii", title: "Проект 2: признаки деградации" }
+          - { num: 191, slug: "191-proekt-2-model-i-metrika-rul", title: "Проект 2: модель и метрика RUL" }
+          - { num: 192, slug: "192-proekt-2-razbor-i-zashchita", title: "Проект 2: разбор и защита" }
+      - title: "Аномалии по вибрации"
+        lessons:
+          - { num: 193, slug: "193-proekt-3-postanovka-i-nasa-bearing", title: "Проект 3: постановка и NASA Bearing" }
+          - { num: 194, slug: "194-proekt-3-spektr-i-priznaki", title: "Проект 3: спектр и признаки" }
+          - { num: 195, slug: "195-proekt-3-detekciya-i-porog", title: "Проект 3: детекция и порог" }
+          - { num: 196, slug: "196-proekt-3-razbor-i-zashchita", title: "Проект 3: разбор и защита" }
+      - title: "Прогноз энергии"
+        lessons:
+          - { num: 197, slug: "197-proekt-4-postanovka-i-dannye", title: "Проект 4: постановка и данные" }
+          - { num: 198, slug: "198-proekt-4-priznaki-i-baseline", title: "Проект 4: признаки и baseline" }
+          - { num: 199, slug: "199-proekt-4-model-i-validaciya", title: "Проект 4: модель и валидация" }
+          - { num: 200, slug: "200-proekt-4-razbor-i-zashchita", title: "Проект 4: разбор и защита" }
+      - title: "Мини-стенд"
+        lessons:
+          - { num: 201, slug: "201-proekt-5-postanovka-i-stend", title: "Проект 5: постановка и стенд" }
+          - { num: 202, slug: "202-proekt-5-kamera-svet-kalibrovka", title: "Проект 5: камера, свет, калибровка" }
+          - { num: 203, slug: "203-proekt-5-detektor-v-realnom-vremeni", title: "Проект 5: детектор в реальном времени" }
+          - { num: 204, slug: "204-proekt-5-razbor-i-zashchita", title: "Проект 5: разбор и защита" }
+  - id: elektrika
+    title: "Электрика с нуля"
+    subtitle: "Ток, напряжение, питание, земля, помехи — для тех, у кого электричество это розетка"
+    color: "#F59E0B"
+    emoji: "⚡"
+    count: 12
+    sections:
+      - title: "Основы"
+        lessons:
+          - { num: 205, slug: "205-chto-takoe-elektrichestvo-zaryad-i-tok-prostymi-slovami", title: "Что такое электричество: заряд и ток простыми словами" }
+          - { num: 206, slug: "206-napryazhenie-raznost-potencialov", title: "Напряжение: разность потенциалов" }
+          - { num: 207, slug: "207-soprotivlenie-i-zakon-oma", title: "Сопротивление и закон Ома" }
+          - { num: 208, slug: "208-elektricheskaya-cep-posledovatelno-i-parallelno", title: "Электрическая цепь: последовательно и параллельно" }
+          - { num: 209, slug: "209-moshchnost-i-nagrev-pochemu-greetsya-provod", title: "Мощность и нагрев: почему греется провод" }
+          - { num: 210, slug: "210-postoyannyy-i-peremennyy-tok-pochemu-220-v-opasno", title: "Постоянный и переменный ток: почему 220 В опасно" }
+      - title: "Питание, земля, помехи"
+        lessons:
+          - { num: 211, slug: "211-pitanie-24-v-blok-pitaniya-i-potrebiteli", title: "Питание 24 В: блок питания и потребители" }
+          - { num: 212, slug: "212-zemlya-i-zazemlenie-zachem-i-chem-otlichaetsya-ot-nulya", title: "Земля и заземление: зачем и чем отличается от нуля" }
+          - { num: 213, slug: "213-pomehi-i-navodki-otkuda-berutsya-i-kak-ih-lovyat", title: "Помехи и наводки: откуда берутся и как их ловят" }
+          - { num: 214, slug: "214-multimetr-merim-napryazhenie-tok-soprotivlenie-prozvonka", title: "Мультиметр: мерим напряжение, ток, сопротивление, прозвонка" }
+          - { num: 215, slug: "215-signaly-datchikov-4-20-ma-0-10-v-diskretnyy", title: "Сигналы датчиков: 4–20 мА, 0–10 В, дискретный" }
+          - { num: 216, slug: "216-kak-chitat-elektricheskuyu-shemu", title: "Как читать электрическую схему" }
+  - id: english
+    title: "Технический английский для инженера"
+    subtitle: "Даташиты, документация и статьи без переводчика"
+    color: "#0EA5E9"
+    emoji: "📘"
+    count: 12
+    sections:
+      - title: "Чтение документации"
+        lessons:
+          - { num: 217, slug: "217-zachem-inzheneru-angliyskiy-i-pochemu-eto-ne-pro-grammatiku", title: "Зачем инженеру английский и почему это не про грамматику" }
+          - { num: 218, slug: "218-kak-ustroen-datashit-razdely-i-poryadok-chteniya", title: "Как устроен даташит: разделы и порядок чтения" }
+          - { num: 219, slug: "219-chisla-edinicy-i-dopuski-0-1-mm-plyus-minus-min-i-max", title: "Числа, единицы и допуски: 0.1 mm, плюс-минус, min и max" }
+          - { num: 220, slug: "220-klyuchevye-slova-supply-input-ground-pull-up-threshold", title: "Ключевые слова: supply, input, ground, pull-up, threshold" }
+          - { num: 221, slug: "221-zaprety-i-preduprezhdeniya-must-not-exceed-do-not-reverse", title: "Запреты и предупреждения: must not exceed, do not reverse" }
+          - { num: 222, slug: "222-tablica-harakteristik-kak-chitat", title: "Таблица характеристик: как читать" }
+          - { num: 223, slug: "223-shemy-i-podpisi-pinout-gnd-nc", title: "Схемы и подписи: pinout, GND, NC" }
+      - title: "Статьи и практика"
+        lessons:
+          - { num: 224, slug: "224-kak-chitat-nauchnuyu-statyu-abstract-method-results-baseline", title: "Как читать научную статью: abstract, method, results, baseline" }
+          - { num: 225, slug: "225-slovar-ml-i-robototehniki", title: "Словарь ML и робототехники" }
+          - { num: 226, slug: "226-perevodchiki-i-llm-kak-polzovatsya-i-chto-proveryat", title: "Переводчики и LLM: как пользоваться и что проверять" }
+          - { num: 227, slug: "227-praktika-razbiraem-realnyy-datashit", title: "Практика: разбираем реальный даташит" }
+          - { num: 228, slug: "228-plan-na-tri-mesyaca-po-pyatnadcat-minut-v-den", title: "План на три месяца по пятнадцать минут в день" }
+  - id: matematika
+    title: "Математика под задачу"
+    subtitle: "Только то, что понадобится, со ссылкой на полный урок"
+    color: "#7C3AED"
+    emoji: "∫"
+    count: 29
+    sections:
+      - title: "Доли и функции"
+        lessons:
+          - { num: 229, slug: "229-zachem-eta-matematika-karta-marshruta", title: "Зачем эта математика: карта маршрута" }
+          - { num: 230, slug: "230-procenty-i-doli-brak-doli-metriki", title: "Проценты и доли: брак, доли, метрики" }
+          - { num: 231, slug: "231-funkciya-kak-chitat-zavisimost", title: "Функция: как читать зависимость" }
+          - { num: 232, slug: "232-grafik-funkcii-chto-vidno-na-grafike", title: "График функции: что видно на графике" }
+      - title: "Производные: откуда берётся обучение"
+        lessons:
+          - { num: 233, slug: "233-proizvodnaya-skorost-izmeneniya", title: "Производная: скорость изменения" }
+          - { num: 234, slug: "234-pravila-differencirovaniya", title: "Правила дифференцирования" }
+          - { num: 235, slug: "235-proizvodnaya-slozhnoy-funkcii-cepnoe-pravilo", title: "Производная сложной функции: цепное правило" }
+          - { num: 236, slug: "236-gradientnyy-spusk-kak-model-uchitsya", title: "Градиентный спуск: как модель учится" }
+      - title: "Линейная алгебра"
+        lessons:
+          - { num: 237, slug: "237-vektory-chto-eto-i-zachem", title: "Векторы: что это и зачем" }
+          - { num: 238, slug: "238-skalyarnoe-proizvedenie-i-ugol-mezhdu-vektorami", title: "Скалярное произведение и угол между векторами" }
+          - { num: 239, slug: "239-matricy-operacii-i-umnozhenie", title: "Матрицы: операции и умножение" }
+          - { num: 240, slug: "240-sobstvennye-znacheniya-zachem-oni-v-ml", title: "Собственные значения: зачем они в ML" }
+      - title: "Вероятность и статистика"
+        lessons:
+          - { num: 241, slug: "241-veroyatnost-klassicheskoe-opredelenie", title: "Вероятность: классическое определение" }
+          - { num: 242, slug: "242-uslovnaya-veroyatnost", title: "Условная вероятность" }
+          - { num: 243, slug: "243-formula-bayesa", title: "Формула Байеса" }
+          - { num: 244, slug: "244-sluchaynaya-velichina-i-funkciya-raspredeleniya", title: "Случайная величина и функция распределения" }
+          - { num: 245, slug: "245-plotnost-veroyatnosti", title: "Плотность вероятности" }
+          - { num: 246, slug: "246-matematicheskoe-ozhidanie-i-dispersiya", title: "Математическое ожидание и дисперсия" }
+          - { num: 247, slug: "247-osnovnye-raspredeleniya", title: "Основные распределения" }
+          - { num: 248, slug: "248-centralnaya-predelnaya-teorema", title: "Центральная предельная теорема" }
+          - { num: 249, slug: "249-vyborka-i-generalnaya-sovokupnost", title: "Выборка и генеральная совокупность" }
+          - { num: 250, slug: "250-ocenka-parametrov", title: "Оценка параметров" }
+          - { num: 251, slug: "251-proverka-gipotez-zachem-p-value", title: "Проверка гипотез: зачем p-value" }
+          - { num: 252, slug: "252-korrelyaciya-i-prichinnost", title: "Корреляция и причинность" }
+      - title: "Сигналы и метрики"
+        lessons:
+          - { num: 253, slug: "253-ryady-fure-otkuda-beretsya-spektr", title: "Ряды Фурье: откуда берётся спектр" }
+          - { num: 254, slug: "254-lineynaya-regressiya-otkuda-koefficienty", title: "Линейная регрессия: откуда коэффициенты" }
+          - { num: 255, slug: "255-metriki-kachestva-precision-i-recall", title: "Метрики качества: precision и recall" }
+          - { num: 256, slug: "256-roc-i-auc-pochemu-vazhna-ploshchad", title: "ROC и AUC: почему важна площадь" }
+          - { num: 257, slug: "257-matrica-oshibok-chto-ona-govorit", title: "Матрица ошибок: что она говорит" }

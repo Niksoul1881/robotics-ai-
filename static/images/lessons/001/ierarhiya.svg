@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="340" viewBox="0 0 1000 340" font-family="Arial, Helvetica, sans-serif">
+  <rect width="1000" height="340" fill="#ffffff"/>
+  <text x="500" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Иерархия производства: от завода до одного датчика</text>
+
+  <g font-size="14">
+    <rect x="380" y="56" width="240" height="44" rx="8" fill="#111827"/>
+    <text x="500" y="84" text-anchor="middle" fill="#e5e7eb" font-weight="bold">Завод</text>
+
+    <rect x="290" y="118" width="420" height="44" rx="8" fill="#1f2937"/>
+    <text x="500" y="146" text-anchor="middle" fill="#e5e7eb">Цех (механообработка, сборка, литьё)</text>
+
+    <rect x="200" y="180" width="600" height="44" rx="8" fill="#374151"/>
+    <text x="500" y="208" text-anchor="middle" fill="#e5e7eb">Участок (токарный, фрезерный, контроль)</text>
+
+    <rect x="110" y="242" width="780" height="44" rx="8" fill="#4b5563"/>
+    <text x="500" y="270" text-anchor="middle" fill="#e5e7eb">Линия / ячейка (2–5 единиц оборудования, связанных потоком)</text>
+
+    <rect x="20" y="300" width="960" height="36" rx="8" fill="#f0fdf4" stroke="#86efac" stroke-width="2"/>
+    <text x="500" y="324" text-anchor="middle" fill="#166534" font-weight="bold">Рабочее место: станок + оператор + датчики + контроллер</text>
+  </g>
+
+  <g stroke="#9ca3af" stroke-width="2" stroke-dasharray="4 4">
+    <line x1="500" y1="100" x2="500" y2="118"/>
+    <line x1="500" y1="162" x2="500" y2="180"/>
+    <line x1="500" y1="224" x2="500" y2="242"/>
+    <line x1="500" y1="286" x2="500" y2="300"/>
+  </g>
+
+  <text x="985" y="200" text-anchor="end" font-size="12" fill="#9ca3af">чем ниже, тем больше данных и меньше решений</text>
+</svg>

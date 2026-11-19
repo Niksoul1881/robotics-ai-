@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="330" viewBox="0 0 1000 330" font-family="Arial, Helvetica, sans-serif">
+  <rect width="1000" height="330" fill="#ffffff"/>
+  <text x="500" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Как читать электрическую схему: батарейка, ключ, лампа</text>
+
+  <!-- контур -->
+  <g stroke="#111827" stroke-width="3" fill="none">
+    <path d="M200,110 L200,90 L800,90 L800,110"/>
+    <path d="M200,220 L200,240 L800,240 L800,220"/>
+    <line x1="200" y1="110" x2="200" y2="220"/>
+    <line x1="800" y1="110" x2="800" y2="220"/>
+  </g>
+
+  <!-- батарея -->
+  <g>
+    <line x1="180" y1="150" x2="220" y2="150" stroke="#111827" stroke-width="5"/>
+    <line x1="188" y1="175" x2="212" y2="175" stroke="#111827" stroke-width="2.5"/>
+    <text x="150" y="152" text-anchor="end" font-size="13" fill="#374151">батарейка</text>
+    <text x="240" y="148" font-size="13" fill="#dc2626">+</text>
+    <text x="240" y="180" font-size="13" fill="#2563eb">−</text>
+    <text x="150" y="180" text-anchor="end" font-size="11" fill="#9ca3af">(источник напряжения)</text>
+  </g>
+
+  <!-- ключ -->
+  <g>
+    <line x1="420" y1="90" x2="470" y2="90" stroke="#111827" stroke-width="3"/>
+    <line x1="470" y1="90" x2="520" y2="60" stroke="#111827" stroke-width="3"/>
+    <circle cx="470" cy="90" r="5" fill="#111827"/>
+    <circle cx="545" cy="90" r="5" fill="#111827"/>
+    <line x1="545" y1="90" x2="590" y2="90" stroke="#111827" stroke-width="3"/>
+    <text x="505" y="125" text-anchor="middle" font-size="13" fill="#374151">ключ (выключатель)</text>
+    <text x="505" y="143" text-anchor="middle" font-size="11" fill="#9ca3af">разомкнут — ток не идёт</text>
+  </g>
+
+  <!-- лампа -->
+  <g>
+    <circle cx="700" cy="90" r="26" fill="#fef3c7" stroke="#111827" stroke-width="3"/>
+    <line x1="684" y1="74" x2="716" y2="106" stroke="#111827" stroke-width="2"/>
+    <line x1="716" y1="74" x2="684" y2="106" stroke="#111827" stroke-width="2"/>
+    <text x="700" y="140" text-anchor="middle" font-size="13" fill="#374151">лампа</text>
+    <text x="700" y="158" text-anchor="middle" font-size="11" fill="#9ca3af">(нагрузка)</text>
+  </g>
+
+  <text x="500" y="278" text-anchor="middle" font-size="13.5" fill="#374151">Схема — это <tspan font-weight="bold">замкнутый контур</tspan>: ток выходит из плюса, проходит через ключ и лампу, возвращается в минус.</text>
+  <text x="500" y="304" text-anchor="middle" font-size="13" fill="#dc2626">Разорвали контур — ток остановился. Это и есть выключатель.</text>
+  <text x="500" y="324" text-anchor="middle" font-size="11.5" fill="#9ca3af">То же самое делает мультиметр в режиме прозвонки: проверяет, есть ли контур.</text>
+</svg>

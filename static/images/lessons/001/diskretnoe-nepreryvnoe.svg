@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="380" viewBox="0 0 1000 380" font-family="Arial, Helvetica, sans-serif">
+  <rect width="1000" height="380" fill="#ffffff"/>
+  <text x="500" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Дискретное и непрерывное: разные данные, разные модели</text>
+
+  <!-- дискретное -->
+  <rect x="20" y="56" width="470" height="300" rx="14" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="255" y="86" text-anchor="middle" font-size="17" font-weight="bold" fill="#1e293b">Дискретное</text>
+  <text x="255" y="110" text-anchor="middle" font-size="13" fill="#64748b">детали, узлы, сборочные единицы</text>
+  <g font-size="12" fill="#334155">
+    <rect x="45" y="126" width="60" height="40" rx="6" fill="#93c5fd"/>
+    <rect x="120" y="126" width="60" height="40" rx="6" fill="#93c5fd"/>
+    <rect x="195" y="126" width="60" height="40" rx="6" fill="#93c5fd"/>
+    <rect x="270" y="126" width="60" height="40" rx="6" fill="#93c5fd"/>
+    <rect x="345" y="126" width="60" height="40" rx="6" fill="#dc2626"/>
+    <rect x="420" y="126" width="45" height="40" rx="6" fill="#93c5fd"/>
+  </g>
+  <text x="375" y="186" text-anchor="middle" font-size="12" fill="#dc2626">брак</text>
+  <text x="255" y="214" text-anchor="middle" font-size="13" font-weight="bold" fill="#1e293b">Данные</text>
+  <text x="255" y="236" text-anchor="middle" font-size="12" fill="#475569">одна строка = одна деталь</text>
+  <text x="255" y="256" text-anchor="middle" font-size="12" fill="#475569">признаки: размер, вибрация, ток</text>
+  <text x="255" y="276" text-anchor="middle" font-size="12" fill="#475569">результат: годна / брак / тип дефекта</text>
+  <text x="255" y="306" text-anchor="middle" font-size="13" font-weight="bold" fill="#166534">Модель: классификация</text>
+  <text x="255" y="330" text-anchor="middle" font-size="12" fill="#16A34A">«эта деталь с дефектом?»</text>
+
+  <!-- непрерывное -->
+  <rect x="510" y="56" width="470" height="300" rx="14" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="745" y="86" text-anchor="middle" font-size="17" font-weight="bold" fill="#1e293b">Непрерывное</text>
+  <text x="745" y="110" text-anchor="middle" font-size="13" fill="#64748b">химия, энергия, металлургия</text>
+  <polyline points="535,170 575,150 615,175 655,140 695,165 735,135 775,160 815,145 855,170 895,150 935,165"
+            fill="none" stroke="#0891b2" stroke-width="3"/>
+  <text x="745" y="214" text-anchor="middle" font-size="13" font-weight="bold" fill="#1e293b">Данные</text>
+  <text x="745" y="236" text-anchor="middle" font-size="12" fill="#475569">одна строка = один момент времени</text>
+  <text x="745" y="256" text-anchor="middle" font-size="12" fill="#475569">признаки: температура, давление, расход</text>
+  <text x="745" y="276" text-anchor="middle" font-size="12" fill="#475569">результат: значение через час</text>
+  <text x="745" y="306" text-anchor="middle" font-size="13" font-weight="bold" fill="#166534">Модель: прогноз ряда</text>
+  <text x="745" y="330" text-anchor="middle" font-size="12" fill="#16A34A">«какая будет температура?»</text>
+</svg>
