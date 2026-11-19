@@ -337,6 +337,40 @@
 .lesson-module-count { color:#6B7280; background:#F3F4F6; border-radius:999px; padding:2px 10px; }
 .lesson-title { font-size: 3rem; font-weight: 800; line-height: 1.2; color: #111827; }
 
+/* --- Мобильная вёрстка урока --- */
+@media (max-width: 900px) {
+    /* flex-элементы с длинным текстом иначе распирают страницу */
+    .breadcrumbs,
+    .lesson-meta,
+    .lesson-module,
+    .lesson-content,
+    .lesson-article { min-width: 0; }
+    .breadcrumbs { flex-wrap: wrap; row-gap: 4px; }
+    .lesson-meta { flex-wrap: wrap; row-gap: 8px; }
+    .lesson-toc, .lesson-toc ul, .lesson-toc li { overflow-wrap: anywhere; }
+}
+
+@media (max-width: 768px) {
+    .lesson-content { padding: 24px 16px; max-width: 100%; }
+    .lesson-title { font-size: 1.85rem; line-height: 1.2; overflow-wrap: break-word; }
+    .lesson-article { font-size: 16px; line-height: 1.65; }
+    .lesson-article h2 { font-size: 1.35rem; margin: 28px 0 14px; }
+    .lesson-article h3 { font-size: 1.1rem; margin: 22px 0 10px; }
+    .lesson-article pre { overflow-x: auto; max-width: 100%; }
+    .lesson-article table {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        font-size: 0.85rem;
+    }
+    .lesson-article img,
+    .lesson-article svg,
+    .lesson-article figure,
+    .lesson-article iframe { max-width: 100%; height: auto; }
+    .breadcrumbs { font-size: 12px; overflow-wrap: break-word; }
+    .lesson-module { font-size: 12px; }
+}
+
 /* Нужно знать (пререквизиты) */
 .lesson-prereq {
     margin-top: 16px;
